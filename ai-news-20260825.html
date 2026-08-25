@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI日报 - 2026-08-25</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+            background: #f0f2f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            border-radius: 12px;
+            margin-bottom: 24px;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        .header h1 {
+            font-size: 2.2em;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+        .header .subtitle {
+            font-size: 0.95em;
+            opacity: 0.9;
+            margin-top: 6px;
+        }
+        .header .meta {
+            font-size: 0.85em;
+            opacity: 0.75;
+            margin-top: 12px;
+        }
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 16px;
+        }
+        .stat-item {
+            text-align: center;
+        }
+        .stat-item .num {
+            font-size: 1.8em;
+            font-weight: 700;
+        }
+        .stat-item .label {
+            font-size: 0.8em;
+            opacity: 0.8;
+        }
+        .news-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        .news-card {
+            background: white;
+            border-radius: 10px;
+            padding: 24px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .news-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+        }
+        .news-card .source-tag {
+            display: inline-block;
+            background: #eef2f7;
+            color: #667eea;
+            font-size: 0.75em;
+            padding: 2px 10px;
+            border-radius: 20px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        .news-card h2 {
+            font-size: 1.15em;
+            margin-bottom: 8px;
+            line-height: 1.5;
+        }
+        .news-card h2 a {
+            color: #1a1a2e;
+            text-decoration: none;
+        }
+        .news-card h2 a:hover {
+            color: #667eea;
+        }
+        .news-card .summary {
+            color: #666;
+            font-size: 0.92em;
+            line-height: 1.7;
+            margin-bottom: 12px;
+        }
+        .news-card .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.8em;
+            color: #999;
+        }
+        .news-card .read-more {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .news-card .read-more:hover {
+            text-decoration: underline;
+        }
+        .footer-area {
+            text-align: center;
+            padding: 30px 0 20px;
+            color: #999;
+            font-size: 0.85em;
+        }
+        .footer-area a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        .empty {
+            text-align: center;
+            padding: 60px 20px;
+            color: #999;
+        }
+        .empty .icon {
+            font-size: 3em;
+            margin-bottom: 16px;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 12px;
+            }
+            .header {
+                padding: 30px 20px;
+            }
+            .header h1 {
+                font-size: 1.6em;
+            }
+            .news-card {
+                padding: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>AI 日报</h1>
+        <div class="subtitle">人工智能热点新闻速递</div>
+        <div class="meta">2026-08-24 16:00 ~ 2026-08-25 16:00</div>
+        <div class="stats">
+            <div class="stat-item">
+                <div class="num">26</div>
+                <div class="label">今日新闻</div>
+            </div>
+            <div class="stat-item">
+                <div class="num">2026-08-25</div>
+                <div class="label">发布日期</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="news-list">
+
+        <div class="news-card">
+            <span class="source-tag">搜狗新闻</span>
+            <h2><a href="https://news.sogou.com/link?url=DSOYnZeCC_q1n7CNRFvLhsiYzUu7csk2BHO2Ofx9ahjZm9ED69OUitzAX3LeJiKkJFxiWOdo9Q9l3FfiuRDc5w.." target="_blank">1. 人工智能蓬勃发展,会提供哪些就业机会(读者点题·共同关注)</a></h2>
+            <div class="summary"></div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://news.sogou.com/link?url=DSOYnZeCC_q1n7CNRFvLhsiYzUu7csk2BHO2Ofx9ahjZm9ED69OUitzAX3LeJiKkJFxiWOdo9Q9l3FfiuRDc5w.." target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">搜狗新闻</span>
+            <h2><a href="https://news.sogou.com/link?url=DSOYnZeCC_q1n7CNRFvLhsiYzUu7csk2BHO2Ofx9ahjZm9ED69OUip8Czs_Y84fJeInKdUGTCu5l3FfiuRDc5w.." target="_blank">2. AI诊疗应是医生助手不可越位替代</a></h2>
+            <div class="summary"></div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://news.sogou.com/link?url=DSOYnZeCC_q1n7CNRFvLhsiYzUu7csk2BHO2Ofx9ahjZm9ED69OUip8Czs_Y84fJeInKdUGTCu5l3FfiuRDc5w.." target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">搜狗新闻</span>
+            <h2><a href="https://news.sogou.com/link?url=DSOYnZeCC_rPxYFq14Gh16s3GOgMAtB9a90MIeECrZWGkgndKQ-vqUEsmS1PNCKmokb9pt5gGbAns1kxMCaIr4k8BjahMuFDtsCnpVGpPpA." target="_blank">3. AI赋能千行百业一线观察|链接芯片与场景——AI智能基座加速端侧应用...</a></h2>
+            <div class="summary"></div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://news.sogou.com/link?url=DSOYnZeCC_rPxYFq14Gh16s3GOgMAtB9a90MIeECrZWGkgndKQ-vqUEsmS1PNCKmokb9pt5gGbAns1kxMCaIr4k8BjahMuFDtsCnpVGpPpA." target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">搜狗新闻</span>
+            <h2><a href="https://news.sogou.com/link?url=6IqLFeTuIyhjWCQ7IMR73pmx9d4ScvvMdgF9BYex1f0HHK6ZMicbPL_-KhphhHR0" target="_blank">4. 人工智能成竞争关键!美国急了:不能落后中国 一刻都不行</a></h2>
+            <div class="summary"></div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://news.sogou.com/link?url=6IqLFeTuIyhjWCQ7IMR73pmx9d4ScvvMdgF9BYex1f0HHK6ZMicbPL_-KhphhHR0" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">搜狗新闻</span>
+            <h2><a href="https://news.sogou.com/link?url=DSOYnZeCC_rPxYFq14Gh1_MsCYppX9s83MBfct4mIqRcDHDvysVQe8t4Ht8t3lYEfb5YiUUqkuQNqjT9ojlwHVJnahgfnTRdreaVHN88tHY." target="_blank">5. 2026绿色算力(人工智能)大会:聚焦词元经济</a></h2>
+            <div class="summary"></div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://news.sogou.com/link?url=DSOYnZeCC_rPxYFq14Gh1_MsCYppX9s83MBfct4mIqRcDHDvysVQe8t4Ht8t3lYEfb5YiUUqkuQNqjT9ojlwHVJnahgfnTRdreaVHN88tHY." target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">搜狗新闻</span>
+            <h2><a href="https://news.sogou.com/link?url=1N5bSpvo44MD-PVtw1DyBiKVsBuEgot-iD1yq9LGI3Qqnj5sX1W9b7shIv_WNpRCv_4qGmGEdHQ." target="_blank">6. 小米发布大模型专用AI加速芯片玄戒O100,科创AIETF博时(588790...</a></h2>
+            <div class="summary"></div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://news.sogou.com/link?url=1N5bSpvo44MD-PVtw1DyBiKVsBuEgot-iD1yq9LGI3Qqnj5sX1W9b7shIv_WNpRCv_4qGmGEdHQ." target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">搜狗新闻</span>
+            <h2><a href="https://news.sogou.com/link?url=LeoKdSZoUyD7gcKLv7HBm5Z6BH17yykfJNVlEbXwi4EUpxcFsZh_5XcgmAEoeZpzmy2RwXWoFDit5pUc3zy0dg.." target="_blank">7. 浪潮海岳大模型安全测评方案入选2026年山东省工业互联网优秀安全解...</a></h2>
+            <div class="summary"></div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://news.sogou.com/link?url=LeoKdSZoUyD7gcKLv7HBm5Z6BH17yykfJNVlEbXwi4EUpxcFsZh_5XcgmAEoeZpzmy2RwXWoFDit5pUc3zy0dg.." target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">搜狗新闻</span>
+            <h2><a href="https://news.sogou.com/link?url=1N5bSpvo44PK5OU8FgMNIAPT9lK_n5UQIQzGIr3ntXCcuBYWpKJvZ6TKYz46hhmIQpNjU2lo6cRYw98cJyJIHdM7Xe6uZ5eq" target="_blank">8. 中信百信银行发布《迈向AI原生时代:大模型驱动的智能研发白皮书》</a></h2>
+            <div class="summary"></div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://news.sogou.com/link?url=1N5bSpvo44PK5OU8FgMNIAPT9lK_n5UQIQzGIr3ntXCcuBYWpKJvZ6TKYz46hhmIQpNjU2lo6cRYw98cJyJIHdM7Xe6uZ5eq" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">搜狗新闻</span>
+            <h2><a href="https://news.sogou.com/link?url=a8xlm0X2uvd7-u-nR9n-upU2WhLNU-EkWxeQDWjy8INPx_89mKDxzRmfy_uj9Gr__x1H8HLppbw4d2X6F0SQYA.." target="_blank">9. 抢抓人工智能发展历史机遇</a></h2>
+            <div class="summary"></div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://news.sogou.com/link?url=a8xlm0X2uvd7-u-nR9n-upU2WhLNU-EkWxeQDWjy8INPx_89mKDxzRmfy_uj9Gr__x1H8HLppbw4d2X6F0SQYA.." target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">搜狗新闻</span>
+            <h2><a href="https://news.sogou.com/link?url=DSOYnZeCC_oFmTickJ_wjyczxNTwwid97i5vMtAW9KtCmof78Ufylg.." target="_blank">10. AI大模型周榜:国产模型多点突破</a></h2>
+            <div class="summary"></div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://news.sogou.com/link?url=DSOYnZeCC_oFmTickJ_wjyczxNTwwid97i5vMtAW9KtCmof78Ufylg.." target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">搜狗新闻</span>
+            <h2><a href="https://news.sogou.com/link?url=1N5bSpvo44MD-PVtw1DyBiKVsBuEgot-iD1yq9LGI3Qqnj5sX1W9bxqUgsco5yOEiZA36U7JRaM." target="_blank">11. 字节将推统一办公品牌 “豆包工作”,大模型应用走向资源池化与分层...</a></h2>
+            <div class="summary"></div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://news.sogou.com/link?url=1N5bSpvo44MD-PVtw1DyBiKVsBuEgot-iD1yq9LGI3Qqnj5sX1W9bxqUgsco5yOEiZA36U7JRaM." target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">搜狗新闻</span>
+            <h2><a href="https://news.sogou.com/link?url=hedJjaC291P33igiXMgxhPGAKHZRnahNxmquGczJcb2OtMXVgkGyEAgKC3ye3rv9NDZUNEf4Tg107DBIr6tRR3t0Vtr5GXF9IeZ8aQ291kY." target="_blank">12. 具身智能2026:告别故事,落地为王</a></h2>
+            <div class="summary"></div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://news.sogou.com/link?url=hedJjaC291P33igiXMgxhPGAKHZRnahNxmquGczJcb2OtMXVgkGyEAgKC3ye3rv9NDZUNEf4Tg107DBIr6tRR3t0Vtr5GXF9IeZ8aQ291kY." target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">搜狗新闻</span>
+            <h2><a href="https://news.sogou.com/link?url=LeoKdSZoUyD7gcKLv7HBm5Z6BH17yykflCmJGP0v_YoEERxL_OANxttAP2NLBYsR0ztd7q5nl6o." target="_blank">13. 现场实测小米玄戒原型机:探索端侧AI算力落地路径</a></h2>
+            <div class="summary"></div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://news.sogou.com/link?url=LeoKdSZoUyD7gcKLv7HBm5Z6BH17yykflCmJGP0v_YoEERxL_OANxttAP2NLBYsR0ztd7q5nl6o." target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">搜狗新闻</span>
+            <h2><a href="https://news.sogou.com/link?url=WaeIF24cBDu3hP1y3b24hf4T17ln4fKRCPNw787Z43Y-y8RGIKX3QZBiASZcMf6MOrJE3Y9D4ItsurE_W_kJaLxCkjyCFdjAIPE7wskPMCol8OT6rYpPtg.." target="_blank">14. 电力设备行业周报:AI算力需求持续高景气,产业瓶颈向电力基础设施...</a></h2>
+            <div class="summary"></div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://news.sogou.com/link?url=WaeIF24cBDu3hP1y3b24hf4T17ln4fKRCPNw787Z43Y-y8RGIKX3QZBiASZcMf6MOrJE3Y9D4ItsurE_W_kJaLxCkjyCFdjAIPE7wskPMCol8OT6rYpPtg.." target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">搜狗新闻</span>
+            <h2><a href="https://news.sogou.com/link?url=LeoKdSZoUyDzPb_wTJCpu5DEKqfRuzX8WOlenSG7ebQ3yQ1K7y2MRPED-SJPMAiWYTjCi8x4r-ZSiIr3U7F6sdBwFA_F1wiYaKWHthYdk-4ALQuprz4Mp56gfzft-jE6rl92KCUobK8." target="_blank">15. ...2026全球AI全产业链竞争力洞察(中美五层架构竞争力 能源~芯片~基...</a></h2>
+            <div class="summary"></div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://news.sogou.com/link?url=LeoKdSZoUyDzPb_wTJCpu5DEKqfRuzX8WOlenSG7ebQ3yQ1K7y2MRPED-SJPMAiWYTjCi8x4r-ZSiIr3U7F6sdBwFA_F1wiYaKWHthYdk-4ALQuprz4Mp56gfzft-jE6rl92KCUobK8." target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">搜狗新闻</span>
+            <h2><a href="https://news.sogou.com/link?url=ocWV09y9H2SAjKfI_xMviunABDjnoATAtnXhUeP4Or_q8XQcxw3PljndWBIZGpWhCYK4FMOPonjkEz2vQv1gXQ.." target="_blank">16. 国产芯片重构AI推理算力上限 王嘉诚:算力竞争进入综合比拼阶段</a></h2>
+            <div class="summary"></div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://news.sogou.com/link?url=ocWV09y9H2SAjKfI_xMviunABDjnoATAtnXhUeP4Or_q8XQcxw3PljndWBIZGpWhCYK4FMOPonjkEz2vQv1gXQ.." target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">搜狗新闻</span>
+            <h2><a href="https://news.sogou.com/link?url=LeoKdSZoUyD7gcKLv7HBm5Z6BH17yykflCmJGP0v_YoEERxL_OANxkw1JmBG7XVL0ztd7q5nl6o." target="_blank">17. AI算力发展驱动业绩高增 新易盛上半年实现净利润75.29亿元</a></h2>
+            <div class="summary"></div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://news.sogou.com/link?url=LeoKdSZoUyD7gcKLv7HBm5Z6BH17yykflCmJGP0v_YoEERxL_OANxkw1JmBG7XVL0ztd7q5nl6o." target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">搜狗新闻</span>
+            <h2><a href="https://news.sogou.com/link?url=1N5bSpvo44PK5OU8FgMNIAPT9lK_n5UQDqxb3m94j2Y1QzNq1JBbNfyG63qiOm5SQ1uQtOkzsdWUp1SfHE_oJ6CfjFS1STqz" target="_blank">18. AI算力通胀时代:英伟达服务器涨价超15%,成本传导冲击云厂商利润率</a></h2>
+            <div class="summary"></div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://news.sogou.com/link?url=1N5bSpvo44PK5OU8FgMNIAPT9lK_n5UQDqxb3m94j2Y1QzNq1JBbNfyG63qiOm5SQ1uQtOkzsdWUp1SfHE_oJ6CfjFS1STqz" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">搜狗新闻</span>
+            <h2><a href="https://news.sogou.com/link?url=DSOYnZeCC_oSKvvhZ5GqjsVOhhdNQFxx0gRMx3XlBHd86UcB4MwrHyHmfGkNvdZG" target="_blank">19. OpenAI推出ChatGPT Work 面向全白领群体开放AI代理</a></h2>
+            <div class="summary"></div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://news.sogou.com/link?url=DSOYnZeCC_oSKvvhZ5GqjsVOhhdNQFxx0gRMx3XlBHd86UcB4MwrHyHmfGkNvdZG" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">搜狗新闻</span>
+            <h2><a href="https://news.sogou.com/link?url=hedJjaC291NwHSMNhvvJKAY0s6TZFfhDaWF-Z4LPS4IUPPbFs5d2IA.." target="_blank">20. 全球最大生活指南百科 WikiHow 指控 OpenAI 爬取超 1.1 万篇教程文章...</a></h2>
+            <div class="summary"></div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://news.sogou.com/link?url=hedJjaC291NwHSMNhvvJKAY0s6TZFfhDaWF-Z4LPS4IUPPbFs5d2IA.." target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">搜狗新闻</span>
+            <h2><a href="https://news.sogou.com/link?url=DSOYnZeCC_oFmTickJ_wjyczxNTwwid94rVKBO_DIj1Cmof78Ufylg.." target="_blank">21. WikiHow指控OpenAI爬取超1.1万篇教程文章</a></h2>
+            <div class="summary"></div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://news.sogou.com/link?url=DSOYnZeCC_oFmTickJ_wjyczxNTwwid94rVKBO_DIj1Cmof78Ufylg.." target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">搜狗新闻</span>
+            <h2><a href="https://news.sogou.com/link?url=hedJjaC291M2EvyNlY5V7BD602KHz3ikdMnambqQHHKmHGO5AXsgAUfcjQXe7wMqZ8gbOUVJwUV9jDjasXu1yw.." target="_blank">22. Anthropic旗舰AI模型遇冷,低成本竞品大行其道</a></h2>
+            <div class="summary"></div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://news.sogou.com/link?url=hedJjaC291M2EvyNlY5V7BD602KHz3ikdMnambqQHHKmHGO5AXsgAUfcjQXe7wMqZ8gbOUVJwUV9jDjasXu1yw.." target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">搜狗新闻</span>
+            <h2><a href="https://news.sogou.com/link?url=hedJjaC291PD0T3DYzJqFDoBhFbePHvernilvTOuwmlSbcC3lLPM52KGGrddjsBBuXAf82yCmVU." target="_blank">23. VC/PE周报|“AI制药第一股”发起CVC基金,具身智能产业链融资持...</a></h2>
+            <div class="summary"></div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://news.sogou.com/link?url=hedJjaC291PD0T3DYzJqFDoBhFbePHvernilvTOuwmlSbcC3lLPM52KGGrddjsBBuXAf82yCmVU." target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">搜狗新闻</span>
+            <h2><a href="https://news.sogou.com/link?url=hedJjaC291P33igiXMgxhPGAKHZRnahNSpzw6asEfEMP5jLwViQNbBFGykLdteadWetcNsgTVd5koSQWe5bnVT9iSUlTOLr0reaVHN88tHY." target="_blank">24. 对话大晓机器人王晓刚:具身智能的“ChatGPT时刻”不会凭空到来,...</a></h2>
+            <div class="summary"></div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://news.sogou.com/link?url=hedJjaC291P33igiXMgxhPGAKHZRnahNSpzw6asEfEMP5jLwViQNbBFGykLdteadWetcNsgTVd5koSQWe5bnVT9iSUlTOLr0reaVHN88tHY." target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">搜狗新闻</span>
+            <h2><a href="https://news.sogou.com/link?url=IPi47MzqYJ7wbCpCAWh-Om6QmpiSMUA7Mfz2mAOLTcRoq8nigPtZ4JUDiuOodnpJ" target="_blank">25. 美智库摸底1181家中美企业:中国AI在物理世界的布局令人担忧</a></h2>
+            <div class="summary"></div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://news.sogou.com/link?url=IPi47MzqYJ7wbCpCAWh-Om6QmpiSMUA7Mfz2mAOLTcRoq8nigPtZ4JUDiuOodnpJ" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">搜狗新闻</span>
+            <h2><a href="https://news.sogou.com/link?url=hedJjaC291PmsKRSFlYdRt9z6dsRgLHDLkjUyqRM6NCMuk_ltXUD4BE0mpcPS73efu052PQwmrs7yDalissX1w.." target="_blank">26. 人形机器人卖爆了,但王兴兴说“ChatGPT时刻”还没来</a></h2>
+            <div class="summary"></div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://news.sogou.com/link?url=hedJjaC291PmsKRSFlYdRt9z6dsRgLHDLkjUyqRM6NCMuk_ltXUD4BE0mpcPS73efu052PQwmrs7yDalissX1w.." target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="footer-area">
+        <p>由 TeleAgent AI日报技能 自动生成 | <a href="https://github.com">GitHub Pages 托管</a></p>
+        <p>每日16:05自动推送</p>
+    </div>
+</div>
+</body>
+</html>
