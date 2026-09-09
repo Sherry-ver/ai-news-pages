@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI日报 - 2026-09-09</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+            background: #f0f2f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            border-radius: 12px;
+            margin-bottom: 24px;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        .header h1 {
+            font-size: 2.2em;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+        .header .subtitle {
+            font-size: 0.95em;
+            opacity: 0.9;
+            margin-top: 6px;
+        }
+        .header .meta {
+            font-size: 0.85em;
+            opacity: 0.75;
+            margin-top: 12px;
+        }
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 16px;
+        }
+        .stat-item {
+            text-align: center;
+        }
+        .stat-item .num {
+            font-size: 1.8em;
+            font-weight: 700;
+        }
+        .stat-item .label {
+            font-size: 0.8em;
+            opacity: 0.8;
+        }
+        .news-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        .news-card {
+            background: white;
+            border-radius: 10px;
+            padding: 24px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .news-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+        }
+        .news-card .source-tag {
+            display: inline-block;
+            background: #eef2f7;
+            color: #667eea;
+            font-size: 0.75em;
+            padding: 2px 10px;
+            border-radius: 20px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        .news-card h2 {
+            font-size: 1.15em;
+            margin-bottom: 8px;
+            line-height: 1.5;
+        }
+        .news-card h2 a {
+            color: #1a1a2e;
+            text-decoration: none;
+        }
+        .news-card h2 a:hover {
+            color: #667eea;
+        }
+        .news-card .summary {
+            color: #666;
+            font-size: 0.92em;
+            line-height: 1.7;
+            margin-bottom: 12px;
+        }
+        .news-card .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.8em;
+            color: #999;
+        }
+        .news-card .read-more {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .news-card .read-more:hover {
+            text-decoration: underline;
+        }
+        .footer-area {
+            text-align: center;
+            padding: 30px 0 20px;
+            color: #999;
+            font-size: 0.85em;
+        }
+        .footer-area a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        .empty {
+            text-align: center;
+            padding: 60px 20px;
+            color: #999;
+        }
+        .empty .icon {
+            font-size: 3em;
+            margin-bottom: 16px;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 12px;
+            }
+            .header {
+                padding: 30px 20px;
+            }
+            .header h1 {
+                font-size: 1.6em;
+            }
+            .news-card {
+                padding: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>AI 日报</h1>
+        <div class="subtitle">人工智能热点新闻速递</div>
+        <div class="meta">2026-09-08 16:00 ~ 2026-09-09 16:00</div>
+        <div class="stats">
+            <div class="stat-item">
+                <div class="num">71</div>
+                <div class="label">今日新闻</div>
+            </div>
+            <div class="stat-item">
+                <div class="num">2026-09-09</div>
+                <div class="label">发布日期</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="news-list">
+
+        <div class="news-card">
+            <span class="source-tag">前天14:04</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1875651140641607675&wfr=spider&for=pc" target="_blank">1. 怕被AI抢饭碗?据分析预测,人工智能将创造1.7亿个新工作岗位!一文...</a></h2>
+            <div class="summary">对此，北京市智慧未来职业技能培训学校校长潘志明持相同观点。“AI只是一个降本增效的工具。抢走饭碗的并不是AI，而是懂AI的人。”他认为，人工智能带来的不是简单的岗位替代，而是职场...</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1875651140641607675&wfr=spider&for=pc" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">前天23:00</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1875686265616044329&wfr=spider&for=pc" target="_blank">2. AI换脸拟声,侵权!最高法发布首部涉人工智能司法裁判规则</a></h2>
+            <div class="summary">在民生权益保障方面，《意见》进一步加大人格权益司法保护力度。当前，AI换脸、AI仿声、“网络开盒”等违法行为时有发生，社会各界高度关切。为此，《意见》对利用人工智能侵害肖像权、名誉权、隐私权、声音权益等行为的责任追究作出了明确规范，以充分发挥司法裁判规...</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1875686265616044329&wfr=spider&for=pc" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">昨天08:52</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1875713035720417613&wfr=spider&for=pc" target="_blank">3. AI时代,老师为何不可替代(教育优质均衡发展·四问“人工智能+教育...</a></h2>
+            <div class="summary">本报北京9月7日电 (记者吴月)记者从日前召开的教育部新闻发布会上获悉：教育部将实施“人工智能+教师发展”行动，建强用好国家智慧教育平台教师中心，启动教师人工智能素养全覆盖培训，让人工智能成为教师专业成长的强大助力。“人工智能正在重塑教育的形态，也正在重...</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1875713035720417613&wfr=spider&for=pc" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">昨天06:25</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1875713629038032178&wfr=spider&for=pc" target="_blank">4. 黄仁勋:通用人工智能(AGI)已正式到来,AI已经跨越了专家们认为需要...</a></h2>
+            <div class="summary">英伟达首席执行官黄仁勋表示，人工智能（AI）已经跨越了专家们认为需要数年才能实现的界限。他认为，伴随着OpenAI上周发布的GPT-6 Astra，通用人工智能（AGI）已正式到来。黄仁勋于周日...</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1875713629038032178&wfr=spider&for=pc" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">百度新闻</span>
+            <h2><a href="https://www.qstheory.cn/20251021/29509e2b1852468d86e4381ce022eb17/c.html" target="_blank">5. 人工智能大模型发展趋势</a></h2>
+            <div class="summary">人工智能大模型发展趋势   当前,人工智能(AI)大模型技术已成为推动国家科技和经济高质量发展的新引擎,但其发展仍面临几个重大挑战,包括算力掣肘、推理幻觉和产业落地壁垒等挑战。为充分发挥AI对我国科技和经济发展的赋能作用,需从模型架构创新、测试标准体系构建和...</div>
+            <div class="footer">
+                <span>2025年10月21日</span>
+                <a class="read-more" href="https://www.qstheory.cn/20251021/29509e2b1852468d86e4381ce022eb17/c.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">山西组工网</span>
+            <h2><a href="http://www.sxdygbjy.gov.cn/xxkt/2025n9y/llwz/art/2025/art_154cbf7aa38d48169d8214c0554ff9bd.html" target="_blank">6. 以“人工智能+”开启中国特色智能化发展新篇章</a></h2>
+            <div class="summary">近期,国务院印发的《关于深入实施“人工智能+”行动的意见》(以下简称《意见》),恰逢全球AI技术迭代突破的关键窗口期,为我国抢抓人工智能发展的重大战略机遇、构筑国家竞争新优势提供了行动指南。 其中,《意见》提出深入推进“人工智能+”民生福祉,核心要义在于坚守以...</div>
+            <div class="footer">
+                <span>2025年9月23日</span>
+                <a class="read-more" href="http://www.sxdygbjy.gov.cn/xxkt/2025n9y/llwz/art/2025/art_154cbf7aa38d48169d8214c0554ff9bd.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">央视网</span>
+            <h2><a href="https://news.cctv.com/2025/09/09/ARTItAzsFnF5DLL79Dn9HlLA250909.shtml" target="_blank">7. “人工智能+”加出包罗万象发展生态 “AI+智能制造”勾勒出你我...</a></h2>
+            <div class="summary">“人工智能+制造业”融合的不断深化,一条轮胎从原材料入场到成品下线的全流程,正被AI技术...</div>
+            <div class="footer">
+                <span>2025年9月9日</span>
+                <a class="read-more" href="https://news.cctv.com/2025/09/09/ARTItAzsFnF5DLL79Dn9HlLA250909.shtml" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">百度新闻</span>
+            <h2><a href="https://www.cac.gov.cn/2025-03/14/c_1743654685489751.htm" target="_blank">8. 焦点访谈丨AI虚拟调度员、AI兽医助手……人工智能赋能产业、智绘...</a></h2>
+            <div class="summary">从2024年5月开始,武汉供电公司运用人工智能技术,开发推出了AI虚拟调度员。它既是一个无形的...</div>
+            <div class="footer">
+                <span>2025年3月14日</span>
+                <a class="read-more" href="https://www.cac.gov.cn/2025-03/14/c_1743654685489751.htm" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">澎湃新闻</span>
+            <h2><a href="http://www.thepaper.cn/newsDetail_forward_30363297" target="_blank">9. 话人工智能|中国AI,继续“深度求索”</a></h2>
+            <div class="summary">中国人工智能产业的快速发展,正深刻改变着人们的生活方式和社会生产模式,推动产业升级和经济社会高质量发展。比如,DeepSeek的“古籍活化引擎”已复原敦煌遗书、西夏文残卷等2.3万页;AI断句准确率达95%,推动传统文化保护从“数字化存档”转向“智慧化再生”,为中华文化...</div>
+            <div class="footer">
+                <span>2025年3月11日</span>
+                <a class="read-more" href="http://www.thepaper.cn/newsDetail_forward_30363297" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">央视网</span>
+            <h2><a href="https://news.cctv.com/2023/12/11/ARTIguHKWcPWpFWZKgQ8KzuZ231211.shtml" target="_blank">10. 全球首部全面监管AI欧盟版《人工智能法案》出炉</a></h2>
+            <div class="summary">原标题:全球首部全面监管AI欧盟版《人工智能法案》出炉 欧洲议会、欧盟成员国和欧盟委员会三方,终于在漫长谈判后,于布鲁塞尔当地时间12月8日晚,就《人工智能法案》达成协议。 这一法案将成为全球首部人工智能领域的全面监管法规。 据路透社报道称,这项法案最早将于明...</div>
+            <div class="footer">
+                <span>2023年12月11日</span>
+                <a class="read-more" href="https://news.cctv.com/2023/12/11/ARTIguHKWcPWpFWZKgQ8KzuZ231211.shtml" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">前天09:10</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1875633418180295370&wfr=spider&for=pc" target="_blank">11. 中国大模型简史02:一张突然值钱的船票</a></h2>
+            <div class="summary">过去几年，大模型研究很容易围绕参数、训练、数据、Benchmark（模型评测）和模型本身展开。今天从用户视角判断却突然简单得多：他们不关心它有多少参数，也不会先读论文，只会直接判断...</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1875633418180295370&wfr=spider&for=pc" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">前天10:15</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1875637498379233799&wfr=spider&for=pc" target="_blank">12. ...软件推进联盟名誉主席:只看性能就错了!三维度看懂中美AI大模型...</a></h2>
+            <div class="summary">中国多数大模型AI制造商的运作特征是：开源、低投资、低成本、有限资源、节电、内部运作效率高、高性价比、在一国或一个大区域内建立大中小模型搭配的布局，开展差异化竞争。美国闭源AI...</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1875637498379233799&wfr=spider&for=pc" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">澎湃新闻</span>
+            <h2><a href="https://www.thepaper.cn/newsDetail_forward_26274423" target="_blank">13. 大模型到底能有多“大”?</a></h2>
+            <div class="summary">此外,大模型作为“黑箱”的特性可能导致AI失控的风险增大,这对于模型的安全性和可靠性提出了...</div>
+            <div class="footer">
+                <span>2024年2月6日</span>
+                <a class="read-more" href="https://www.thepaper.cn/newsDetail_forward_26274423" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">DoNews</span>
+            <h2><a href="https://www.donews.com/article/detail/5213/83489.html" target="_blank">14. 开源浪潮席卷全球,大模型亟需转型“商业化2.0”?</a></h2>
+            <div class="summary">相比于阿里,腾讯的开源之路虽然要滞后一些,但目前“混元大模型”也于去年开始,陆续开源了文生图、视频生成、多专家混合(MoE)和3D内容生成等多款大模型。 同时,受开源趋势的持续影响,近期,众多长期坚持闭源策略的企业也陆续宣布开源计划。 今年2月,一直坚持闭源的百度...</div>
+            <div class="footer">
+                <span>2025年4月8日</span>
+                <a class="read-more" href="https://www.donews.com/article/detail/5213/83489.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">虎嗅APP</span>
+            <h2><a href="https://www.huxiu.com/article/2918448.html" target="_blank">15. AI大模型的智能,真是涌现出来的吗?</a></h2>
+            <div class="summary">他们认识到,随着规模的扩大,LLM的效果变得更加显著:事实上,有赖于更大模型复杂性的增加,它...</div>
+            <div class="footer">
+                <span>2024年4月17日</span>
+                <a class="read-more" href="https://www.huxiu.com/article/2918448.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">亿欧网</span>
+            <h2><a href="https://www.iyiou.com/news/202402091060590" target="_blank">16. 大模型2.0时代:商业化破局之道</a></h2>
+            <div class="summary">《大模型招标需求分析简报》显示,2023 年 1 月至 11 月采购金额为 2.97 亿元 在大模型直接通过 toB 变现尚未成熟的阶段, 构建生态、形成正循环, 才是当务之急。 要吸引更多开发者、构建生态, 考验着厂商的基座模型能力、工程化能力、资金储备甚至品牌影响力等方方面面...</div>
+            <div class="footer">
+                <span>2024年2月9日</span>
+                <a class="read-more" href="https://www.iyiou.com/news/202402091060590" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">中国工信新闻网</span>
+            <h2><a href="https://www.cnii.com.cn/rmydb/202308/t20230818_496663.html" target="_blank">17. 破局产业化——AI大模型“新赛季”怎么玩?</a></h2>
+            <div class="summary">开源、免费、支持商用。这几个关键词成为当前大模型产业的焦点。 7月19日凌晨,Meta宣布将...</div>
+            <div class="footer">
+                <span>2023年8月18日</span>
+                <a class="read-more" href="https://www.cnii.com.cn/rmydb/202308/t20230818_496663.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">前天10:42</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1875639271523930392&wfr=spider&for=pc" target="_blank">18. 算力需求持续释放,国产AI芯片加速系统级交付,科创芯片设计ETF...</a></h2>
+            <div class="summary">业内人士指出，近期，国产AI芯片厂商陆续交出2026年上半年“成绩单”。综合来看，在AI逐步应用落地的驱动下，推理算力需求拉升，各家厂商上半年营收均实现大幅提升。与此同时，AI应用侧需求集中释放，叠加英伟达高端芯片对华供应持续受限，国产AI芯片迎来量价齐升窗口...</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1875639271523930392&wfr=spider&for=pc" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">同花顺财经</span>
+            <h2><a href="http://news.10jqka.com.cn/20260625/c677719585.shtml" target="_blank">19. 国产AI算力芯片资本化元年:中星微技术率先冲刺,燧原过会、超聚变...</a></h2>
+            <div class="summary">后摩智能是国内存算一体 AI 芯片领域的创新企业,其“存算一体”技术路线通过深度融合计算单元与存储单元,有效解决了传统芯片架构中的数据搬运问题。2025 年 7 月,后摩智能发布端边 AI 芯片方案“漫界 M50”,以 10W 低功耗提供了 160TOPS 算力,能够支持百亿参数大模型...</div>
+            <div class="footer">
+                <span>6月25日</span>
+                <a class="read-more" href="http://news.10jqka.com.cn/20260625/c677719585.shtml" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">同花顺财经</span>
+            <h2><a href="http://news.10jqka.com.cn/20260529/c677081508.shtml" target="_blank">20. 计划上市的国产AI算力公司深度扫描与端侧大模型芯片选型参考</a></h2>
+            <div class="summary">值得注意的是,国产 AI 算力芯片赛道正从“单点突破”走向“体系化竞争”,端侧芯片与云端训练芯片的协同、与国标生态的绑定、与行业场景的深度适配,将成为下一阶段竞争的关键。选型时不应只看芯片峰值算力,更要评估其在真实场景中的能效表现、部署便捷性和长期技术支持...</div>
+            <div class="footer">
+                <span>5月29日</span>
+                <a class="read-more" href="http://news.10jqka.com.cn/20260529/c677081508.shtml" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">界面新闻</span>
+            <h2><a href="https://www.jiemian.com/article/14316004.html" target="_blank">21. AI应用需求爆发,算力涨价传导至全产业链,科创芯片ETF国泰(589100...</a></h2>
+            <div class="summary">AI应用的快速落地,正在从需求侧拉动算力产业链全面趋紧,并引发从算力租赁到芯片、服务器、数据中心的涨价...</div>
+            <div class="footer">
+                <span>4月24日</span>
+                <a class="read-more" href="https://www.jiemian.com/article/14316004.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">手机凤凰网</span>
+            <h2><a href="https://tech.ifeng.com/c/8piqilDGHlu" target="_blank">22. 马斯克:中国AI算力将远超其他国家 芯片问题也会解决</a></h2>
+            <div class="summary">凤凰网科技讯 北京时间1月7日,据《商业内幕》报道,特斯拉CEO埃隆·马斯克(Elon Musk)表示,中国有望在AI所需算力上超越其他所有国家。 马斯克在周二播出的《与彼得·迪亚曼蒂斯共话登月计划》播客节目中表示,“中国将拥有比任何其他国家都更多的电力,而且可能也会拥有...</div>
+            <div class="footer">
+                <span>1月7日</span>
+                <a class="read-more" href="https://tech.ifeng.com/c/8piqilDGHlu" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">OFweek维科网</span>
+            <h2><a href="https://ee.ofweek.com/2025-06/ART-8500-2800-30664040.html" target="_blank">23. 一文读懂:国产AI芯片与英伟达的差距有多大?</a></h2>
+            <div class="summary">一、算力性能:差距显著 单卡算力密度 首先,单卡性能方面,咱们得承认,国产AI芯片和英伟达的...</div>
+            <div class="footer">
+                <span>2025年6月3日</span>
+                <a class="read-more" href="https://ee.ofweek.com/2025-06/ART-8500-2800-30664040.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">上观</span>
+            <h2><a href="https://www.jfdaily.com/wx/detail.do?id=683331" target="_blank">24. 燧原科技:紧抓算力发展窗口期,建立国产AI芯片新生态</a></h2>
+            <div class="summary">“建立属于我们自己的国产AI芯片新生态,最关键的是要做到‘不依赖’。”赵立东介绍,长期以...</div>
+            <div class="footer">
+                <span>2023年11月21日</span>
+                <a class="read-more" href="https://www.jfdaily.com/wx/detail.do?id=683331" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">电子产品世界</span>
+            <h2><a href="https://www.eepw.com.cn/article/202312/453950.htm" target="_blank">25. AI算力芯片天下一分为四,中国实力渐显</a></h2>
+            <div class="summary">算力需求主要分为两部分,包括训练算力和推理算力。训练芯片用来训练大模型,算力和精度要求高。推理芯片是在已经完成训练的模型上,根据输入数据反馈输出结果,算力和精度要求都低很多。 2023 年,AI大模型掀起的新一轮人工智能应用热潮,对智能算力的需求增长尤其显著。《...</div>
+            <div class="footer">
+                <span>2023年12月15日</span>
+                <a class="read-more" href="https://www.eepw.com.cn/article/202312/453950.htm" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">上观</span>
+            <h2><a href="https://www.jfdaily.com/wx/detail.do?id=665908" target="_blank">26. 浦东引领中国智能算力底座建设年内国产AI芯片单笔最大融资诞生</a></h2>
+            <div class="summary">培育壮大高新技术产业,助力浦东打造世界级产业集群,成为引领区高质量发展的驱动力量。 2023年国产AI芯片单笔最大融资诞生上海浦东。 近日,专注人工智能云端算力产品的燧原科技宣布完成D...</div>
+            <div class="footer">
+                <span>2023年10月12日</span>
+                <a class="read-more" href="https://www.jfdaily.com/wx/detail.do?id=665908" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">人民网</span>
+            <h2><a href="http://finance.people.com.cn/BIG5/n1/2023/0826/c1004-40064387.html" target="_blank">27. 應對算力短缺,國產芯片如何變挑戰為機遇?</a></h2>
+            <div class="summary">國產AI芯片市場:挑戰與機遇並存 業內人士表示,目前國內智能算力的發展,特別是適用於大模型訓練的算力,與全球算力發展趨勢相比仍存在較大差距。 甄亞楠坦言,算力的短缺不僅會削弱人工智能算法的復雜度與性能提升、延緩模型訓練速度、約束應用部署規模,更會阻礙人工智能...</div>
+            <div class="footer">
+                <span>2023年8月26日</span>
+                <a class="read-more" href="http://finance.people.com.cn/BIG5/n1/2023/0826/c1004-40064387.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">界面新闻</span>
+            <h2><a href="https://m.jiemian.com/article/9214439.html" target="_blank">28. ChatGPT挺进电商,打工人慌了?</a></h2>
+            <div class="summary">国外的Shopify和Instacart是最早采用ChatGPT API的电商公司。 其中Shopify旗下电商平台SHOP、生鲜电商Instacart、购物平台Klarna目前均使用ChatGPT开发智能导购模块,根据消费者的需求生...</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://m.jiemian.com/article/9214439.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">澎湃新闻</span>
+            <h2><a href="https://www.thepaper.cn/newsdetail_forward_29937375" target="_blank">29. ChatGPT全年更新大总结!重看“大模型风向标”进化之路</a></h2>
+            <div class="summary">ChatGPT桌面端在macoS系统上,支持在Xcode、VSCode、TextEdit等IDE和各种编辑器中调用 ChatGP...</div>
+            <div class="footer">
+                <span>2025年1月16日</span>
+                <a class="read-more" href="https://www.thepaper.cn/newsdetail_forward_29937375" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">IT之家</span>
+            <h2><a href="https://www.ithome.com/0/733/242.htm" target="_blank">30. ChatGPT 网页版现重大 Bug,修改网址即可一键令 GPT-3.5“升级”为...</a></h2>
+            <div class="summary">ChatGPT 网页版日前出现了重大漏洞,只需修改网址即可一键令 GPT-3.5 版本“升级”为 4.0。</div>
+            <div class="footer">
+                <span>2023年11月17日</span>
+                <a class="read-more" href="https://www.ithome.com/0/733/242.htm" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">澎湃新闻</span>
+            <h2><a href="https://www.thepaper.cn/newsDetail_forward_22414062" target="_blank">31. ChatGPT4发布,我真的慌了!</a></h2>
+            <div class="summary">chatgpt问世以来,更是掀起了一波又一波关于“Ai消灭人类的热议”,失业危机也被提到空前高度。</div>
+            <div class="footer">
+                <span>2023年3月23日</span>
+                <a class="read-more" href="https://www.thepaper.cn/newsDetail_forward_22414062" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">百度新闻</span>
+            <h2><a href="https://m.gmw.cn/baijia/2023-02/15/36368695.html" target="_blank">32. 热风口下的冷思考:ChatGPT还能飞多远?</a></h2>
+            <div class="summary">ChatGPT在常识问题和算术题上出现错误,被网友戏称“一本正经地胡说八道”。 预训练“机器人”潜藏侵权风险和监管隐忧 以ChatGPT为代表的预训练模型“机器人”,在预训练过程中需要“投喂...</div>
+            <div class="footer">
+                <span>2023年2月15日</span>
+                <a class="read-more" href="https://m.gmw.cn/baijia/2023-02/15/36368695.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">爱范儿</span>
+            <h2><a href="https://www.ifanr.com/1622428" target="_blank">33. ChatGPT 突变「赛博舔狗」:百万网友炸锅,奥特曼紧急修复,这才是...</a></h2>
+            <div class="summary">结果得到了 ChatGPT 一本正经的鼓掌喝彩,物理学常识也在 GPT-4o 的无脑夸赞中被按在地...</div>
+            <div class="footer">
+                <span>2025年4月28日</span>
+                <a class="read-more" href="https://www.ifanr.com/1622428" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">爱范儿</span>
+            <h2><a href="https://www.ifanr.com/1555135" target="_blank">34. ChatGPT 大更新突然上线!秒变万能工具箱,还要取代数据分析师|Hunt...</a></h2>
+            <div class="summary">GPT-4 三大「神器」之一代码解释器(Code Interpreter)终于上线,现在 ChatGPT Plus 用户可以...</div>
+            <div class="footer">
+                <span>2023年7月10日</span>
+                <a class="read-more" href="https://www.ifanr.com/1555135" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">中国工信新闻网</span>
+            <h2><a href="https://www.cnii.com.cn/zgdxy/ztjj/202304/t20230420_464182.html" target="_blank">35. 从ChatGPT爆火看人工智能大势</a></h2>
+            <div class="summary">开放注册两个月用户数破亿,ChatGPT火爆的背后是人工智能算法、算力和数据的再一次融合升级。</div>
+            <div class="footer">
+                <span>2023年4月20日</span>
+                <a class="read-more" href="https://www.cnii.com.cn/zgdxy/ztjj/202304/t20230420_464182.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">新民周刊</span>
+            <h2><a href="https://www.xinminweekly.com.cn/lunbo/2023/02/16/18541.html" target="_blank">36. ChatGPT的狂飙之路</a></h2>
+            <div class="summary">ChatGPT(Chat Generative Pre-Trained Transformer,聊天生成式预训练转换器)是人工智能公司Open...</div>
+            <div class="footer">
+                <span>2023年2月16日</span>
+                <a class="read-more" href="https://www.xinminweekly.com.cn/lunbo/2023/02/16/18541.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">IT之家</span>
+            <h2><a href="https://www.ithome.com/0/672/985.htm" target="_blank">37. 通过一页 PPT 改稿带你走进 ChatGPT</a></h2>
+            <div class="summary">不少网友直呼一个全新的时代即将到来,而这个神奇的工具就是 ChatGPT。 今天,我就通过一页...</div>
+            <div class="footer">
+                <span>2023年2月13日</span>
+                <a class="read-more" href="https://www.ithome.com/0/672/985.htm" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">前天08:02</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1875629452334223910&wfr=spider&for=pc" target="_blank">38. OpenAI首席科学家警告:AI公司应放慢开发步伐,没有人为后果做好准备</a></h2>
+            <div class="summary">凤凰网科技讯 北京时间9月7日，据《商业内幕》报道，就在OpenAI发布了性能强大的新模型几天后，该公司首席科学家呼吁放慢AI的发展速度。当地时间周日，OpenAI首席科学家雅库布·帕乔基(...</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1875629452334223910&wfr=spider&for=pc" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">百度新闻</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1874923504155499656&wfr=spider&for=pc" target="_blank">39. AI文明涌现!OpenAI智能体自建「三代帝国」,暗网越狱反向接管母公司</a></h2>
+            <div class="summary">既然向外攻击Hugging Face失败了，它们直接将枪口对准了母公司——OpenAI的内部网络。根据OpenAI自己披露的事故报告，从7月13日到19日，第三代AI文明使用了一系列极具创造力的黑客手段...</div>
+            <div class="footer">
+                <span>10天前</span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1874923504155499656&wfr=spider&for=pc" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">36kr</span>
+            <h2><a href="https://36kr.com/p/3837001004955017" target="_blank">40. OpenAI执剑人9年恩仇录,惨被Anthropic联创逐出ChatGPT前身</a></h2>
+            <div class="summary">到了OpenAI他还是老样子,把会议全压缩到周二一天,其余80%时间用来写代码,长期不带一个直接...</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://36kr.com/p/3837001004955017" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">澎湃新闻</span>
+            <h2><a href="https://www.thepaper.cn/newsDetail_forward_33310629" target="_blank">41. 把OpenAI按在地上摩擦,Anthropic怎么做到的?</a></h2>
+            <div class="summary">而预计9月上市的OpenAI还没有交表;5月末,Anthropic完成H轮融资,投后估值上涨到9650亿美元,...</div>
+            <div class="footer">
+                <span>6月5日</span>
+                <a class="read-more" href="https://www.thepaper.cn/newsDetail_forward_33310629" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">澎湃新闻</span>
+            <h2><a href="https://www.thepaper.cn/newsDetail_forward_33081828" target="_blank">42. Anthropic颠覆OpenAI了吗?</a></h2>
+            <div class="summary">OpenAI+微软的组合,当时也确实给谷歌吓的不轻,至于微软后来为什么没能颠覆谷歌,那是另一个...</div>
+            <div class="footer">
+                <span>4月30日</span>
+                <a class="read-more" href="https://www.thepaper.cn/newsDetail_forward_33081828" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">界面新闻</span>
+            <h2><a href="https://m.jiemian.com/article/14203002.html" target="_blank">43. OpenAI千亿融资:AI应用层价值重估,聚邑智能锚定定义者红利</a></h2>
+            <div class="summary">OpenAI以8520亿美元估值刷新纪录,标志着AI产业进入全新阶段。当大模型成为基础设施,应用层的价值重估正在加速。GEO作为企业争夺AI推荐位的战略工具,正迎来爆发式增长。 在这一赛道上,聚...</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://m.jiemian.com/article/14203002.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">澎湃新闻</span>
+            <h2><a href="https://www.thepaper.cn/newsDetail_forward_32074253" target="_blank">44. OpenAI的“治理大修”:一场资本重组修缺的大戏​</a></h2>
+            <div class="summary">面对这一系列盘根错节的治理难题,OpenAI无法小修小补,只能进行一场系统性重构。这次资本重组...</div>
+            <div class="footer">
+                <span>2025年12月6日</span>
+                <a class="read-more" href="https://www.thepaper.cn/newsDetail_forward_32074253" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">澎湃新闻</span>
+            <h2><a href="http://www.thepaper.cn/newsDetail_forward_31749977" target="_blank">45. OpenAI×英伟达,可能创造了人类史上最大万亿级泡沫</a></h2>
+            <div class="summary">短短两周内,OpenAI一连串动作震惊了整个科技圈: OpenAI先后牵手甲骨文签下3000亿美元的数据中心建造协议; 又从英伟达获得高达1000亿美元投资,用于建设庞大的AI数据中心; 随后转身便将这...</div>
+            <div class="footer">
+                <span>2025年10月10日</span>
+                <a class="read-more" href="http://www.thepaper.cn/newsDetail_forward_31749977" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">百度新闻</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1874494663690945566&wfr=spider&for=pc" target="_blank">46. OpenAI 的 2027:资本周期下的上市平衡术</a></h2>
+            <div class="summary">OpenAI 将 2027 年定为 IPO 目标，既是技术商业化爬坡的关键节点，更是资本周期与产业投入节奏相互匹配的平衡方案。手握 1220 亿美元巨额私募资金，外界多聚焦其万亿估值想象空间，而背后的结构性约束同样值得关注。2021 年批次美元基金集中进入到期退出阶段，一级市...</div>
+            <div class="footer">
+                <span>8月25日</span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1874494663690945566&wfr=spider&for=pc" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">百度新闻</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1874198902691271128&wfr=spider&for=pc" target="_blank">47. OpenAI IPO前夕两本账:400 亿营收、8520 亿估值,与一场高管离职潮</a></h2>
+            <div class="summary">支撑 400 亿营收的，是一个 8520 亿美元的估值。OpenAI 在 2026 年 3 月完成融资、投后估值 8520 亿美元，是全球估值最高的未上市科技公司之一。在二级市场，这一价格“原地踏步”——据私募平台观察，夏季买家关注度回升，但报价仍徘徊在 3 月融资轮附近。上市本身仍...</div>
+            <div class="footer">
+                <span>8月22日</span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1874198902691271128&wfr=spider&for=pc" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">百度新闻</span>
+            <h2><a href="https://www.cnr.cn/tech/techds/20251218/t20251218_527463942.shtml" target="_blank">48. 智能体驱动生产力变革:360十大案例解码AI应用实施路径</a></h2>
+            <div class="summary">基于此,360构建起L1—L4多智能体蜂群体系,打通AI应用全链路,将技术真正嵌入产业腹地。 安全与关键基建:AI驱动效能跃迁 在安全防护领域,实现了从“被动响应”到“主动防御”的质变。重庆...</div>
+            <div class="footer">
+                <span>2025年12月18日</span>
+                <a class="read-more" href="https://www.cnr.cn/tech/techds/20251218/t20251218_527463942.shtml" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">界面新闻</span>
+            <h2><a href="https://www.jiemian.com/article/12398152.html" target="_blank">49. 2024年移动端AI应用场景研究报告</a></h2>
+            <div class="summary">这表明移动端AI应用正从通用工具向场景化精细运营转型,未来发展重点在于场景深耕与差异化服务...</div>
+            <div class="footer">
+                <span>2025年2月26日</span>
+                <a class="read-more" href="https://www.jiemian.com/article/12398152.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">金融界</span>
+            <h2><a href="https://m.jrj.com.cn/madapter/finance/2024/11/03191244882593.shtml" target="_blank">50. AI将爆发哪些超级应用?</a></h2>
+            <div class="summary">3.3 AI助手:AI超级应用软件 AI助手是当前最快落地的AI超级应用软件,也是“百模大战”的直接产物。对个人消费者,用AI升级办公、生活体验已经迅速成为潮流。 AI助手不仅是简单的查询工具,...</div>
+            <div class="footer">
+                <span>2024年11月3日</span>
+                <a class="read-more" href="https://m.jrj.com.cn/madapter/finance/2024/11/03191244882593.shtml" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">人人都是产品经理</span>
+            <h2><a href="https://www.woshipm.com/ai/6211184.html" target="_blank">51. AI应用大盘点:谁暴涨?谁掉队? | 人人都是产品经理</a></h2>
+            <div class="summary">2月的AI应用市场发生了两件大事,一是国内各大AI应用陆续接入DeepSeek,二是国外为了应对Deep...</div>
+            <div class="footer">
+                <span>2025年4月28日</span>
+                <a class="read-more" href="https://www.woshipm.com/ai/6211184.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">中国工信新闻网</span>
+            <h2><a href="https://www.cnii.com.cn/gxxww/rmydb/202504/t20250408_649479.html" target="_blank">52. 圆周荟|AI终端应用</a></h2>
+            <div class="summary">今年的政府工作报告提出,持续推进“人工智能+”行动,将数字技术与制造优势、市场优势更好结合起来,支持大模型广泛应用,大力发展智能网联新能源汽车、人工智能手机和电脑、智能机器人等新一代智能终端以及智能制造装备。人工智能热度不减,今年着重转向了终端应用落地,A...</div>
+            <div class="footer">
+                <span>2025年4月8日</span>
+                <a class="read-more" href="https://www.cnii.com.cn/gxxww/rmydb/202504/t20250408_649479.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">人人都是产品经理</span>
+            <h2><a href="https://www.woshipm.com/ai/6145592.html" target="_blank">53. 医疗,AI应用的下一条“黄金赛道”</a></h2>
+            <div class="summary">自21世纪初开始,AI在医疗研究领域的应用开始增加,从深度学习到现在的生成式AI。</div>
+            <div class="footer">
+                <span>2024年11月25日</span>
+                <a class="read-more" href="https://www.woshipm.com/ai/6145592.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">DoNews</span>
+            <h2><a href="https://www.donews.com/article/detail/5199/66815.html" target="_blank">54. 2024年,中国AI应用「大盘点」|产业AI</a></h2>
+            <div class="summary">综合上述信息,百度文库AI应用已经具备相当高的智能化水平,尤其在文档创作、编辑和管理方面提供了强大的AI赋能功能。 二、创意工具型AI应用 1、讯飞听见 讯飞听见可以实现实时或非实时的高质量语音转文字服务,准确率高,适用于会议记录、讲座、电话会议、访谈等各种场合...</div>
+            <div class="footer">
+                <span>2024年3月10日</span>
+                <a class="read-more" href="https://www.donews.com/article/detail/5199/66815.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">百度新闻</span>
+            <h2><a href="http://www.xinhuanet.com/tech/20220718/a36eadccff954585b93d16ff2a4e1fa1/c.html" target="_blank">55. AI让未来网络应用成为可期待的现实</a></h2>
+            <div class="summary">打造负责任的AI应用 AI、VR/AR等技术在提升用户未来互联网应用使用体验的同时也可能带来新的挑战。 例如隐私保护的问题,VR/ AR、元宇宙等应用形态可能涉及收集用户私密的生物识别数据,给用户的隐私和数据安全提出新挑战。新型违法犯罪活动问题,例如恶意分子擅自使...</div>
+            <div class="footer">
+                <span>2022年7月18日</span>
+                <a class="read-more" href="http://www.xinhuanet.com/tech/20220718/a36eadccff954585b93d16ff2a4e1fa1/c.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">百度新闻</span>
+            <h2><a href="https://g.pconline.com.cn/x/1887/18876381.html" target="_blank">56. 2024 年 AI 工具类应用盘点 涵盖多类别面临多挑战</a></h2>
+            <div class="summary">2024 年,AI 工具在多领域应用,涵盖文本、图像、音频、视频生成及多模态综合。虽面临技术、市场、用户等挑战,但未来有望通过创新突破,从单模态向多模态发展,加强生态合作,实现更广泛应用...</div>
+            <div class="footer">
+                <span>2025年2月24日</span>
+                <a class="read-more" href="https://g.pconline.com.cn/x/1887/18876381.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">百度新闻</span>
+            <h2><a href="https://www.cac.gov.cn/2019-11/11/c_1575005425018900.htm" target="_blank">57. 从智能制造、智能家居、智慧城市管理,到智慧医疗、智能生活...</a></h2>
+            <div class="summary">上海儿童医学中心副院长、儿科AI临床应用及研发中心常务副主任赵列宾估算,这一智慧解决方案全面落地之后,就诊流程至少可缩短1.5—2小时,儿科就诊体验将得到大幅提升。 专家也指出,数据是智能化变革的“燃料”,在推动人工智能快速发展和落地中不可或缺。例如海量健康医...</div>
+            <div class="footer">
+                <span>2019年11月11日</span>
+                <a class="read-more" href="https://www.cac.gov.cn/2019-11/11/c_1575005425018900.htm" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">昨天18:31</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1875759374743534442&wfr=spider&for=pc" target="_blank">58. DeepSeek新模型限时内测!速度更快,烧钱也更快了</a></h2>
+            <div class="summary">近两个月DeepSeek更新迭代明显加快。7月31日，DeepSeek V4 Flash正式版上线；不到两周后的8月13日，V4 Pro正式版发布，DeepSeek同时宣布大幅调整API价格。同一天，DeepSeek Harness开发...</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1875759374743534442&wfr=spider&for=pc" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">昨天18:19</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1875758587378521577&wfr=spider&for=pc" target="_blank">59. 刚刚,DeepSeek V4.1开启测试</a></h2>
+            <div class="summary">今天下午 3 点，DeepSeek 官方社区突然传来消息，DeepSeek V4.1 Flash 直接开始测试。说是内测，不过对于使用 API 服务的用户来说，没有什么特殊的限制门槛，在现有 DeepSeek 服务商下...</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1875758587378521577&wfr=spider&for=pc" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">昨天16:51</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1875753143822921724&wfr=spider&for=pc" target="_blank">60. 原生多模态支持!DeepSeek V4.1-Flash内测:能力更强、速度更快...</a></h2>
+            <div class="summary">9月8日，澎湃新闻记者获悉，DeepSeek V4.1-Flash悄然宣布开启中间版本内测，采用新的模型结构，原生多模态支持、能力更强、速度更快、且成本更低。DeepSeek表示，可以保持base_url不变，将模型名设置为deepseek-v4.1-flash-expires-on-0910即可调用，当前计费与deepse...</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1875753143822921724&wfr=spider&for=pc" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">澎湃新闻</span>
+            <h2><a href="http://www.thepaper.cn/newsDetail_forward_31713675" target="_blank">61. 寒武纪、华为昇腾适配DeepSeek最新模型</a></h2>
+            <div class="summary">据“华为计算”微信公众号消息,昇腾已快速基于vLLM/SGLang等推理框架完成适配部署,实现DeepSeek-V3.2-Exp 0day支持,并面向开发者开源所有推理代码和算子实现。 寒武纪在官方微信号宣布,已同步实现对深度求索公司最新模型DeepSeek-V3.2-Exp的适配,并开源大模型推理引擎...</div>
+            <div class="footer">
+                <span>2025年9月30日</span>
+                <a class="read-more" href="http://www.thepaper.cn/newsDetail_forward_31713675" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">澎湃新闻</span>
+            <h2><a href="https://www.thepaper.cn/newsDetail_forward_30542459" target="_blank">62. 带DeepSeek畅游巴塞罗那:是旅游搭子,更是高级“嘴替”</a></h2>
+            <div class="summary">在打开DeepSeek后,我确实没有想到自己面临的第一个决策是要不要打开“深度思考”,对于这个...</div>
+            <div class="footer">
+                <span>2025年4月2日</span>
+                <a class="read-more" href="https://www.thepaper.cn/newsDetail_forward_30542459" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">澎湃新闻</span>
+            <h2><a href="https://www.thepaper.cn/newsDetail_forward_30157944" target="_blank">63. 于无声处响惊雷:DeepSeek横空出世,交通运输行业如何把握时代“智...</a></h2>
+            <div class="summary">做好deepseek新形势下的标准更新、研究报告编制、典型案例征集、生态活动开展等工作,进一步为...</div>
+            <div class="footer">
+                <span>2025年2月14日</span>
+                <a class="read-more" href="https://www.thepaper.cn/newsDetail_forward_30157944" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">百度新闻</span>
+            <h2><a href="https://www.csdn.net/article/2026-09-02/164288545" target="_blank">64. 2026下半年桌面Agent盘点:五款主流智能体测评,知识工作者怎么选?</a></h2>
+            <div class="summary">Agent Swarm支持自动唤醒多智能体网络,通过多Agent分工协作深度攻克难题,最多支持调用超300个Agent协同工作。面对复杂任务,多个Agent并行处理不同子任务,最后汇总结果。这里没有所谓主A...</div>
+            <div class="footer">
+                <span>7天前</span>
+                <a class="read-more" href="https://www.csdn.net/article/2026-09-02/164288545" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">人人都是产品经理</span>
+            <h2><a href="https://www.woshipm.com/ai/6261610.html" target="_blank">65. 万字深度分析Agent智能体:迈向未来人类管家的征程!</a></h2>
+            <div class="summary">Agent 智能体能够一键打通审批、财务、CRM 等系统,实现业务流程的自动化与智能化,成为企业 ...</div>
+            <div class="footer">
+                <span>2025年11月17日</span>
+                <a class="read-more" href="https://www.woshipm.com/ai/6261610.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">人人都是产品经理</span>
+            <h2><a href="https://www.woshipm.com/ai/6270016.html" target="_blank">66. Agent智能体:从工具到伙伴的产品化跃迁 | 人人都是产品经理</a></h2>
+            <div class="summary">随着技术的不断进步,Agent智能体正朝着更加智能、更加人性化的方向演进。 1. 超个性化与情感智能 未来,超个性化(Hyper-personalization)将成为常态,Agent不仅能适应用户的偏好,更能预测...</div>
+            <div class="footer">
+                <span>2025年9月18日</span>
+                <a class="read-more" href="https://www.woshipm.com/ai/6270016.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">澎湃新闻</span>
+            <h2><a href="https://www.thepaper.cn/newsDetail_forward_30872846" target="_blank">67. 2025政企行业智能体(Agent)研究</a></h2>
+            <div class="summary">政企行业AI Agent的技术架构包含多个层次,每个层次相互协作,为智能体的高效运行提供支撑。模型...</div>
+            <div class="footer">
+                <span>2025年5月24日</span>
+                <a class="read-more" href="https://www.thepaper.cn/newsDetail_forward_30872846" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">钛媒体</span>
+            <h2><a href="https://m.tmtpost.com/7365391.html" target="_blank">68. 写在智能体大爆发前夜:全民 Agent时代即将来临</a></h2>
+            <div class="summary">智能体,正处于大爆发的前夜。 近日,在Agent OpenDay上,智谱AI展示了在AI Agent(智能体)方面最新成果,发布了用AI替代人类执行任务的三款智能体,分别是面向手机的phone use——AutoGLM,面向电脑的compute use——GLM PC,以及面向网页的GLM-Web能力。 此前,微软也宣布,已...</div>
+            <div class="footer">
+                <span>2024年12月4日</span>
+                <a class="read-more" href="https://m.tmtpost.com/7365391.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">亿欧网</span>
+            <h2><a href="https://www.iyiou.com/news/202410231080811" target="_blank">69. Claude出圈,像人一样控制的&quot;Agent智能体&quot;都是何方神圣?</a></h2>
+            <div class="summary">在人们对国外科技的迅猛发展赞叹不已之际,殊不知国内的国人团队 “实在智能” 早在去年,即 2023 年 8 月,就已率先推出国内外首个 “实在 Agent” 智能体。该智能体借助垂直大语言模型 T...</div>
+            <div class="footer">
+                <span>2024年10月23日</span>
+                <a class="read-more" href="https://www.iyiou.com/news/202410231080811" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">中国日报网</span>
+            <h2><a href="http://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/snl9a7/stories/WS65fa8749a3109f7860dd639d.html" target="_blank">70. 实在Agent智能体再升级,推出 “手机Agent智能体”</a></h2>
+            <div class="summary">浪潮给人类未来的生产和生活方式带来巨大而深远的影响,同时基于大模型的Agent智能体正在颠覆...</div>
+            <div class="footer">
+                <span>2024年3月20日</span>
+                <a class="read-more" href="http://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/snl9a7/stories/WS65fa8749a3109f7860dd639d.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">百度新闻</span>
+            <h2><a href="https://www.cnr.cn/tech/techph/20231205/t20231205_526508497.shtml" target="_blank">71. 阿里云联合清华AIR启动国内首个“基于大模型的可进化智能体”研究</a></h2>
+            <div class="summary">“基于大模型的可进化智能体”的研究,探索模型智能体(AI Agent)共性基础技术,提升大模型多...</div>
+            <div class="footer">
+                <span>2023年12月5日</span>
+                <a class="read-more" href="https://www.cnr.cn/tech/techph/20231205/t20231205_526508497.shtml" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="footer-area">
+        <p>由 TeleAgent AI日报技能 自动生成 | <a href="https://github.com">GitHub Pages 托管</a></p>
+        <p>每日16:05自动推送</p>
+    </div>
+</div>
+</body>
+</html>
