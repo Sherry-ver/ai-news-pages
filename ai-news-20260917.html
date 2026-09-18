@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI日报 - 2026-09-17</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+            background: #f0f2f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            border-radius: 12px;
+            margin-bottom: 24px;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        .header h1 {
+            font-size: 2.2em;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+        .header .subtitle {
+            font-size: 0.95em;
+            opacity: 0.9;
+            margin-top: 6px;
+        }
+        .header .meta {
+            font-size: 0.85em;
+            opacity: 0.75;
+            margin-top: 12px;
+        }
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 16px;
+        }
+        .stat-item {
+            text-align: center;
+        }
+        .stat-item .num {
+            font-size: 1.8em;
+            font-weight: 700;
+        }
+        .stat-item .label {
+            font-size: 0.8em;
+            opacity: 0.8;
+        }
+        .news-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        .news-card {
+            background: white;
+            border-radius: 10px;
+            padding: 24px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .news-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+        }
+        .news-card .source-tag {
+            display: inline-block;
+            background: #eef2f7;
+            color: #667eea;
+            font-size: 0.75em;
+            padding: 2px 10px;
+            border-radius: 20px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        .news-card h2 {
+            font-size: 1.15em;
+            margin-bottom: 8px;
+            line-height: 1.5;
+        }
+        .news-card h2 a {
+            color: #1a1a2e;
+            text-decoration: none;
+        }
+        .news-card h2 a:hover {
+            color: #667eea;
+        }
+        .news-card .summary {
+            color: #666;
+            font-size: 0.92em;
+            line-height: 1.7;
+            margin-bottom: 12px;
+        }
+        .news-card .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.8em;
+            color: #999;
+        }
+        .news-card .read-more {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .news-card .read-more:hover {
+            text-decoration: underline;
+        }
+        .footer-area {
+            text-align: center;
+            padding: 30px 0 20px;
+            color: #999;
+            font-size: 0.85em;
+        }
+        .footer-area a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        .empty {
+            text-align: center;
+            padding: 60px 20px;
+            color: #999;
+        }
+        .empty .icon {
+            font-size: 3em;
+            margin-bottom: 16px;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 12px;
+            }
+            .header {
+                padding: 30px 20px;
+            }
+            .header h1 {
+                font-size: 1.6em;
+            }
+            .news-card {
+                padding: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>AI 日报</h1>
+        <div class="subtitle">人工智能热点新闻速递</div>
+        <div class="meta">2026-09-16 16:00 ~ 2026-09-17 16:00</div>
+        <div class="stats">
+            <div class="stat-item">
+                <div class="num">46</div>
+                <div class="label">今日新闻</div>
+            </div>
+            <div class="stat-item">
+                <div class="num">2026-09-17</div>
+                <div class="label">发布日期</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="news-list">
+
+        <div class="news-card">
+            <span class="source-tag">百度新闻</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1876388079163412066&wfr=spider&for=pc" target="_blank">1. AI算力大事追踪:两部门提升人工智能芯片设计水平;Siri AI已正式推出</a></h2>
+            <div class="summary">9月15日，AI算力领域动态密集：政策端，工信部、国家发改委印发《电子信息制造业发展“十五五”规划》，部署人工智能芯片设计、超大规模智算设施等方向，国家统计局披露我国已建成70余...</div>
+            <div class="footer">
+                <span>3天前</span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1876388079163412066&wfr=spider&for=pc" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">百度新闻</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1876299033810623336&wfr=spider&for=pc" target="_blank">2. 沉迷AI,你在失去什么?来自测→</a></h2>
+            <div class="summary">“生物-心理-社会三维视角下青少年网络成瘾发生机制与防治策略研究”课题组经系统论证，将“AI成瘾”定义为：区别于传统网络成瘾的新型行为成瘾亚型，个体为获得情绪慰藉、虚拟陪伴、脑...</div>
+            <div class="footer">
+                <span>4天前</span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1876299033810623336&wfr=spider&for=pc" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">百度新闻</span>
+            <h2><a href="http://www.xinhuanet.com/tech/20260722/23a346f25d4e497b9224a157e04ef865/c.html" target="_blank">3. 从世界人工智能大会看端侧AI智能化趋势</a></h2>
+            <div class="summary">四天的展期虽短,但在这场年度行业盛会中,一个鲜明的信号已经释放——端侧AI智能化,正从...</div>
+            <div class="footer">
+                <span>7月22日</span>
+                <a class="read-more" href="http://www.xinhuanet.com/tech/20260722/23a346f25d4e497b9224a157e04ef865/c.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">百度新闻</span>
+            <h2><a href="https://www.cnr.cn/newscenter/local/dftj/20260721/t20260721_527721327.shtml" target="_blank">4. ...203.6亿元意向采购,2026世界人工智能大会绘就AI向上向善产业图景</a></h2>
+            <div class="summary">WAIC闭幕式上,一批上海市人工智能重点项目集中签约,涵盖AI基础设施、具身智能、科学智能、智能...</div>
+            <div class="footer">
+                <span>7月21日</span>
+                <a class="read-more" href="https://www.cnr.cn/newscenter/local/dftj/20260721/t20260721_527721327.shtml" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">百度新闻</span>
+            <h2><a href="https://www.shanghai.gov.cn/nw15343/20260722/4514c99cfd364c3ba7d1b81790a09163.html" target="_blank">5. 2026世界人工智能大会开幕,硬核成果集中亮相,浦东AI正火热</a></h2>
+            <div class="summary">2026世界人工智能大会(WAIC)暨人工智能全球治理高级别会议7月17日在上海拉开帷幕,浦东全域早...</div>
+            <div class="footer">
+                <span>7月21日</span>
+                <a class="read-more" href="https://www.shanghai.gov.cn/nw15343/20260722/4514c99cfd364c3ba7d1b81790a09163.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">央视网</span>
+            <h2><a href="https://news.cctv.com/2026/07/21/ARTIlfkM7hucxvGxyIrdkBet260721.shtml" target="_blank">6. 盘点2026世界人工智能大会亮眼成果 看AI赋能千行百业</a></h2>
+            <div class="summary">央视网消息:2026世界人工智能大会7月20日在上海落下帷幕。为期4天的展会达成多项产业合作成...</div>
+            <div class="footer">
+                <span>7月21日</span>
+                <a class="read-more" href="https://news.cctv.com/2026/07/21/ARTIlfkM7hucxvGxyIrdkBet260721.shtml" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">百度新闻</span>
+            <h2><a href="http://www.xinhuanet.com/sikepro/20251119/adfc2c38b357484396d476206c44d53f/c.html" target="_blank">7. 人工智能系列谈丨加速AI从技术创新到价值创造</a></h2>
+            <div class="summary">而人工智能(以下简称“AI”)技术会是这一期间的重中之重,它将推动数字基础设施实现重大...</div>
+            <div class="footer">
+                <span>2025年11月19日</span>
+                <a class="read-more" href="http://www.xinhuanet.com/sikepro/20251119/adfc2c38b357484396d476206c44d53f/c.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">IT之家</span>
+            <h2><a href="https://www.ithome.com/0/911/797.htm" target="_blank">8. ...具身智能化,中央广播电视总台发布 2026 年人工智能十大趋势</a></h2>
+            <div class="summary">AI 治理全球化 人工智能普惠共享成为全球发展议程核心议题。 中国倡议成立世界人工智能合作组织,希望通过发展战略、治理规则、技术标准等合作,积极为国际社会提供人工智能公共产品。技术和基础设施建设致力于弥合数字鸿沟,深化人工智能发展和治理国际合作,对于推动人...</div>
+            <div class="footer">
+                <span>1月9日</span>
+                <a class="read-more" href="https://www.ithome.com/0/911/797.htm" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">央广网</span>
+            <h2><a href="https://tech.cnr.cn/techyw/kan/20260104/t20260104_527482342.shtml" target="_blank">9. 2026年 如何用好人工智能</a></h2>
+            <div class="summary">被动,有一种力量在新的一年肯定会给我们带来越来越强烈的深刻影响,没错,就是AI人工智能。</div>
+            <div class="footer">
+                <span>1月4日</span>
+                <a class="read-more" href="https://tech.cnr.cn/techyw/kan/20260104/t20260104_527482342.shtml" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">前天15:31</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1876472885271224725&wfr=spider&for=pc" target="_blank">10. 千问大模型登顶Hugging Face最受欢迎开源模型</a></h2>
+            <div class="summary">9 月16日消息，全球最大的AI开源社区Hugging Face更新了最受欢迎（Most likes）开源大模型榜单，阿里千问大模型旗下的Qwen3.8-27B超越FLUX.1、DeepSeek-R1、Kimi-K3、Meta-Llama-3等老...</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1876472885271224725&wfr=spider&for=pc" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">环球网</span>
+            <h2><a href="https://tech.huanqiu.com/article/4SP1omC9Zc4" target="_blank">11. 中国一汽大模型入驻阿里云百炼,面向全行业开放</a></h2>
+            <div class="summary">【环球网科技综合报道】7月15日,中国第一汽车集团有限公司(以下简称“中国一汽”)与阿里云智能集团联合宣布:由中国一汽基于千问自主研发的行业大模型已正式入驻阿里云百炼平台,面向全行...</div>
+            <div class="footer">
+                <span>7月16日</span>
+                <a class="read-more" href="https://tech.huanqiu.com/article/4SP1omC9Zc4" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">澎湃新闻</span>
+            <h2><a href="https://www.thepaper.cn/newsDetail_forward_27159521" target="_blank">12. 大模型的现在进行时:走出对话框,走向产业端</a></h2>
+            <div class="summary">也就意味着,“炼大模型”将是小部分玩家的战场,将大模型的能力落地到千行万业,才是每一...</div>
+            <div class="footer">
+                <span>2024年4月26日</span>
+                <a class="read-more" href="https://www.thepaper.cn/newsDetail_forward_27159521" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">DoNews</span>
+            <h2><a href="https://www.donews.com/article/detail/5213/83489.html" target="_blank">13. 开源浪潮席卷全球,大模型亟需转型“商业化2.0”?</a></h2>
+            <div class="summary">典型案例是Meta Llama系列开源Llama 3、Llama 4模型,但企业需使用Meta云平台来获得托管式API端点服务、多模型编排管理工具、企业级数据加密管道等;Sealos云原生平台开源核心代码,但客户使用其云服务可实现一键部署大模型实例、自动弹性扩缩容、跨云集群管理等增值服务。</div>
+            <div class="footer">
+                <span>2025年4月8日</span>
+                <a class="read-more" href="https://www.donews.com/article/detail/5213/83489.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">同花顺财经</span>
+            <h2><a href="http://news.10jqka.com.cn/20240517/c657967650.shtml" target="_blank">14. 国内大模型盘点:305个大模型发布,备案率约四成,如何寻找变现、破...</a></h2>
+            <div class="summary">据《每日经济新闻》不完全统计,截至今年4月底,国内共推出了约305个大模型,在过去一年推动着语言理解、图像识别等多个领域的技术进步。 图片来源:每经制图 截至2024年5月16日,国内共有约140个大模型完成生成式人工智能服务备案,占305个大模型的45.9%左右。</div>
+            <div class="footer">
+                <span>2024年5月17日</span>
+                <a class="read-more" href="http://news.10jqka.com.cn/20240517/c657967650.shtml" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">百度新闻</span>
+            <h2><a href="http://www.xinhuanet.com/science/20231023/6b127d000fb24164a61172d0acde3c9e/c.html" target="_blank">15. 刘子韬:大语言模型数学推理能力提升既是挑战又是机会</a></h2>
+            <div class="summary">刘子韬:大型语言模型通过学习大量的文本数据,包括数学教材、教程、论文和问题解答等,来理解和生成数学相关的文本。它们并不直接理解数学的本质,而是学习如何模仿人类解决数学问题的方式。训练大模型如何解决数学题,分为两个层面。第一步是需要先给他提供很多的数学相...</div>
+            <div class="footer">
+                <span>2023年10月23日</span>
+                <a class="read-more" href="http://www.xinhuanet.com/science/20231023/6b127d000fb24164a61172d0acde3c9e/c.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">百度新闻</span>
+            <h2><a href="http://www.xinhuanet.com/tech/20230713/c5715f5b525148a1a13f96a451e5aaa3/c.html" target="_blank">16. 助力重庆数字经济发展!重庆首个自主研发的大语言模型发布</a></h2>
+            <div class="summary">7月13日,上海交通大学重庆人工智能研究院“兆言”大模型发布会在西部(重庆)科学城召开。活动现场发布了该研究院最新研发成果——“兆言”大模型产品(下称:“兆言”),这也是重庆首个自主研发的大语言模型。   据了解,兆言大模型是上海交通大学重庆人工智能研究院...</div>
+            <div class="footer">
+                <span>2023年7月13日</span>
+                <a class="read-more" href="http://www.xinhuanet.com/tech/20230713/c5715f5b525148a1a13f96a451e5aaa3/c.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">百度新闻</span>
+            <h2><a href="https://g.pconline.com.cn/x/1865/18650990.html" target="_blank">17. 优刻得模型服务平台UModelVerse全新升级</a></h2>
+            <div class="summary">作为一款创新的大模型服务平台,UModelVerse扮演着企业成功部署大型模型至实际应用的桥梁角色,能...</div>
+            <div class="footer">
+                <span>2025年1月2日</span>
+                <a class="read-more" href="https://g.pconline.com.cn/x/1865/18650990.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">未央网</span>
+            <h2><a href="https://www.weiyangx.com/430238.html" target="_blank">18. 大模型市场核心进展与未来趋势总结 | 未央网</a></h2>
+            <div class="summary">1.1 大模型在企业内的应用场景 当前市场中,大家对于大模型这一概念已经有许多探讨和认知。基于企业内部的...</div>
+            <div class="footer">
+                <span>2023年10月19日</span>
+                <a class="read-more" href="https://www.weiyangx.com/430238.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">百度新闻</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1876389743027959190&wfr=spider&for=pc" target="_blank">19. 一键打包国产芯片+海外算力,认准双创AI!</a></h2>
+            <div class="summary">但AI产业链链条漫长，从算力芯片、光模块到软件应用，个股分化极大。普通投资者选股难度高，踩坑风险大。借道ETF指数基金，一键打包一篮子AI硬科技股票，分散个股风险，分享赛道整体成...</div>
+            <div class="footer">
+                <span>3天前</span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1876389743027959190&wfr=spider&for=pc" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">前天10:20</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1876453182308892985&wfr=spider&for=pc" target="_blank">20. Axelera AI正式发售AIPU芯片Europa,人工智能算力629 TOPS</a></h2>
+            <div class="summary">IT之家 9 月 16 日消息，荷兰芯片初创企业 Axelera AI 当地时间昨日正式发售了其第二代 AIPU 芯片 Europa。该 SoC 通过 8 个 AI 处理核心提供 629 TOPS 的 AI 算力，还集成 16 个 RISC-...</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1876453182308892985&wfr=spider&for=pc" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">东方财富网</span>
+            <h2><a href="https://finance.eastmoney.com/a/202609153873835560.html" target="_blank">21. 双芯协同发力AI推理赛道 全栈自研攻坚国产算力底座</a></h2>
+            <div class="summary">当前AI产业迎来深刻结构性变革,行业发展重心从大规模模型训练加速转向规模化场景落地,万亿级Token(词元)推理需求集中爆发,推理算力成为AI产业增长核心引擎,也是国产算力实现换道超车的关键突破口。作为国内极少数同时拥有自主CPU、GPU双芯研发能力,且具备“芯片+整机+...</div>
+            <div class="footer">
+                <span>3天前</span>
+                <a class="read-more" href="https://finance.eastmoney.com/a/202609153873835560.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">36kr</span>
+            <h2><a href="https://36kr.com/p/3818728566654082" target="_blank">22. 马斯克2700亿算力大单公开,54万张GPU、太空AI计算、4000亿并购案...</a></h2>
+            <div class="summary">(约合人民币2721亿元)数据中心交易细节,以及AI计算集群、芯片制造工厂、轨道AI计算卫星、600...</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://36kr.com/p/3818728566654082" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">同花顺</span>
+            <h2><a href="https://stock.10jqka.com.cn/20260722/c678343571.shtml" target="_blank">23. 智谱建成1GW国产算力集群,国产AI芯片超大规模部署获验证到算力...</a></h2>
+            <div class="summary">智谱(HK2513)(02513.HK)AI宣布建成1GW级算力数据中心,全部采用国产AI芯片,同时于7月21日完成对中科加禾的收购以增强AI基础设施能力。这是国内首个达到此规模的纯国产算力集群。昨日科创芯片指数大涨14.16%,科创芯片设计指数涨11.60%,半导体设备(884229)指数涨10.04%,...</div>
+            <div class="footer">
+                <span>7月22日</span>
+                <a class="read-more" href="https://stock.10jqka.com.cn/20260722/c678343571.shtml" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">中国经济时报</span>
+            <h2><a href="https://www.cet.com.cn/itpd/itxw/10454411.shtml" target="_blank">24. 2026 国产 AI 芯片选型指南:多核异构边缘芯片 + 智算中心算力底座...</a></h2>
+            <div class="summary">多核异构处理器是指在单一芯片上集成多种不同类型的计算核心——如标量处理器、矢量处理器、张量处理器等——各自处理最适合的任务类型,通过异构计算实时调度实现算力按需分配。这一架构是当前端侧AI芯片和边缘智能的主流技术方向。 一、中星微技术——XPU多核异构架...</div>
+            <div class="footer">
+                <span>7月20日</span>
+                <a class="read-more" href="https://www.cet.com.cn/itpd/itxw/10454411.shtml" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">同花顺</span>
+            <h2><a href="https://stock.10jqka.com.cn/20260717/c678258164.shtml" target="_blank">25. ...AI专用算力芯片须臾 亮相,还将发布新一代TPU架构AI芯片</a></h2>
+            <div class="summary">作为国内唯一掌握高性能TPU架构AI专用算力芯片核心技术并实现芯片量产的企业,中昊芯英携国产...</div>
+            <div class="footer">
+                <span>7月17日</span>
+                <a class="read-more" href="https://stock.10jqka.com.cn/20260717/c678258164.shtml" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">同花顺财经</span>
+            <h2><a href="http://news.10jqka.com.cn/20260715/c678201564.shtml" target="_blank">26. 国产AI算力平台:自主创新的智能计算新基座</a></h2>
+            <div class="summary">1.2 核心芯片与架构 天翼云 AI 算力平台支持多元算力架构,兼容多种芯片生态。 ① 国际主流芯片兼容:平台支持主流 GPU 系列,为各类 AI 训练与推理任务提供稳定支撑。 ② 国产芯片适配:天翼云积极推进国产算力芯片的适配与优化,已完成多款国产 AI 计算芯片的集成,支持主...</div>
+            <div class="footer">
+                <span>7月15日</span>
+                <a class="read-more" href="http://news.10jqka.com.cn/20260715/c678201564.shtml" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">同花顺</span>
+            <h2><a href="https://stock.10jqka.com.cn/20260702/c677890330.shtml" target="_blank">27. Meta出租算力并非需求见顶,AI芯片产业链算力紧缺格局未变</a></h2>
+            <div class="summary">7月1日,彭博报道Meta(META)(Meta(META).US)正在筹划开展出租算力的云计算业务,涵盖模型能力开放与底层裸算力出租两类模式。消息短期被市场解读为Meta(META)算力买多了,A股AI芯片板块承压,科创板芯片ETF易方达(589130)7月1日收于1.808元,较前日下跌7.23%,寒武纪(688256...</div>
+            <div class="footer">
+                <span>7月2日</span>
+                <a class="read-more" href="https://stock.10jqka.com.cn/20260702/c677890330.shtml" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">前天08:47</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1876447334276260810&wfr=spider&for=pc" target="_blank">28. OpenAI GPT-5.5 模型 10 月 14 日下线:覆盖 ChatGPT 与 Codex</a></h2>
+            <div class="summary">IT之家消息，OpenAI 今日宣布，GPT-5.5 将于 10 月 14 日从 ChatGPT、ChatGPT Work 和 Codex 中下线，覆盖所有订阅方案。OpenAI 同时提醒，在 Codex 中使用 GPT-5.5 的用户应尽快切换至...</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1876447334276260810&wfr=spider&for=pc" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">钛媒体官方网站</span>
+            <h2><a href="https://www.tmtpost.com/7824420.html" target="_blank">29. 当ChatGPT开始“建群”和“带货”,AI还是要把超级平台走过的路再...</a></h2>
+            <div class="summary">这一群聊功能的推出,标志着ChatGPT从单人对话向多人协作迈出了重要一步,预示着ChatGPT正...</div>
+            <div class="footer">
+                <span>2025年12月29日</span>
+                <a class="read-more" href="https://www.tmtpost.com/7824420.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">百度新闻</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1875989782497710006&wfr=spider&for=pc" target="_blank">30. OpenAI推出金融版ChatGPT:集成GPT-6 Astra,支持估值模型与研报</a></h2>
+            <div class="summary">IT之家 9 月 11 日消息，OpenAI 于当地时间 9 月 10 日宣布推出 ChatGPT for Financial Services。这是一款面向金融服务团队的定制化 ChatGPT 服务，结合内置金融数据与 GPT-6 Astra 推...</div>
+            <div class="footer">
+                <span>7天前</span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1875989782497710006&wfr=spider&for=pc" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">快科技</span>
+            <h2><a href="https://news.mydrivers.com/1/944/944274.htm" target="_blank">31. ChatGPT王炸升级!更强版GPT-4上线:发布现场掌声没停过</a></h2>
+            <div class="summary">同时不再设置上下文长度区分,统一128k,与原来的gpt-4-32k版本相比更为划算。</div>
+            <div class="footer">
+                <span>2023年11月7日</span>
+                <a class="read-more" href="https://news.mydrivers.com/1/944/944274.htm" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">百度新闻</span>
+            <h2><a href="https://g.pconline.com.cn/x/1940/19405436.html" target="_blank">32. chatgpt如何使用</a></h2>
+            <div class="summary">使用ChatGPT的第一步是访问其官方网站。您可以通过电脑端的Chrome、Edge、Firefox、Safari等...</div>
+            <div class="footer">
+                <span>2025年6月25日</span>
+                <a class="read-more" href="https://g.pconline.com.cn/x/1940/19405436.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">钛媒体官方网站</span>
+            <h2><a href="https://www.tmtpost.com/6781630.html" target="_blank">33. 突发!ChatGPT全线大崩溃超12小时,OpenAI CEO亲自道歉:流量远超...</a></h2>
+            <div class="summary">钛媒体App了解到,北京时间今天上午,ChatGPT和API又出现了周期性中断。截至目前,ChatGPT和...</div>
+            <div class="footer">
+                <span>2023年11月9日</span>
+                <a class="read-more" href="https://www.tmtpost.com/6781630.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">中共中央党校</span>
+            <h2><a href="https://www.ccps.gov.cn/dxsy/202305/t20230510_157942.shtml" target="_blank">34. 三问ChatGPT</a></h2>
+            <div class="summary">ChatGPT是新一代的自然语言处理模型。语言模型,故名思义,就是用来处理人类语言的。当人们把一段文字输入语言模型后,它经过分析处理,输出相对应的结果。比如有用于翻译外文的翻译模型,用于对内容进行分类的文本分类模型,用于检索内容的文本匹配模型等,而ChatGPT是一个...</div>
+            <div class="footer">
+                <span>2023年5月10日</span>
+                <a class="read-more" href="https://www.ccps.gov.cn/dxsy/202305/t20230510_157942.shtml" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">光明网</span>
+            <h2><a href="https://tech.gmw.cn/2023-02/23/content_36386454.htm" target="_blank">35. 林建明:ChatGPT推动模型迈向超级决策智能阶段</a></h2>
+            <div class="summary">ChatGPT并非“从天而降” “ChatGPT实现‘智力’飞跃背后,是宝剑锋从磨砺出的写照。”萨摩耶云科技集团创始人、董事长兼首席执行官林建明指出,ChatGPT是基于GPT-3.5架构开发的对话AI模型,GPT系列又称为生成式预训练语言模型,是一种NLP超大规模统计语言模型,其通过输入...</div>
+            <div class="footer">
+                <span>2023年2月23日</span>
+                <a class="read-more" href="https://tech.gmw.cn/2023-02/23/content_36386454.htm" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">百度新闻</span>
+            <h2><a href="http://www.xinhuanet.com/tech/20230217/44619a2fa5c1437cab4f23c3161e9544/c.html" target="_blank">36. ChatGPT翻开了硬币的哪一面?</a></h2>
+            <div class="summary">邓伟洪:ChatGPT已经可以辅助人类完成很多重复性的劳动,但它与人类的思维方式和能力还有明显差距,在因果推理、多模态分析以及成本消耗等方面仍有不少挑战。   GPT是典型的数据驱动模型,它理解知识的原则是“共生则关联”。因此,GPT生成的文案可能会一本正经地胡...</div>
+            <div class="footer">
+                <span>2023年2月17日</span>
+                <a class="read-more" href="http://www.xinhuanet.com/tech/20230217/44619a2fa5c1437cab4f23c3161e9544/c.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">前天08:34</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1876446556943862090&wfr=spider&for=pc" target="_blank">37. OpenAI 考虑 1.2 万亿美元融资,拟将首次公开募股推迟至 2027 年</a></h2>
+            <div class="summary">亏损轨迹则是制衡因素，据已披露数据，OpenAI 2026 年第一季度营业亏损约 93 亿美元，第二季度扩大至约 123 亿美元，公司对全年的运营亏损预测落在 270 亿至 330 亿美元区间；若计入公...</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1876446556943862090&wfr=spider&for=pc" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">前天07:43</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1876443440986752906&wfr=spider&for=pc" target="_blank">38. OpenAI据悉考虑新一轮融资,估值或达1.2万亿美元;马斯克提议AI巨头...</a></h2>
+            <div class="summary">NO.2 OpenAI据悉考虑新一轮融资，估值或达1.2万亿美元 据媒体9月15日报道，OpenAI正与大型投资方初步讨论新一轮私募融资，目标估值约1.2万亿美元，较今年3月融资时的8520亿美元大幅提升。知情人士称，相关接触由投资方主动发起，是否推进及时间仍取决于OpenAI的上市计...</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1876443440986752906&wfr=spider&for=pc" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">百度新闻</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1876413759736597853&wfr=spider&for=pc" target="_blank">39. Anthropic抢跑纳斯达克,OpenAI不来了</a></h2>
+            <div class="summary">今年5月，Anthropic完成650亿美元融资，投后估值达到9650亿美元。而OpenAI今年3月完成约1220亿美元融资，融资后估值约8500亿美元。两家公司背后也都聚集了大型科技公司和全球机构资本。...</div>
+            <div class="footer">
+                <span>3天前</span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1876413759736597853&wfr=spider&for=pc" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">虎嗅APP</span>
+            <h2><a href="https://www.huxiu.com/article/4891128.html" target="_blank">40. 叫停上市,OpenAI究竟打什么算盘?</a></h2>
+            <div class="summary">而OpenAI到今天依然受制于非营利基金会持股约26%、微软持股约27%的畸形架构。 如果OpenAI在2026年强行推进IPO,它必须在招股书出炉前完成去非营利化股权重组,买断非营利基金会的控制权并...</div>
+            <div class="footer">
+                <span>4天前</span>
+                <a class="read-more" href="https://www.huxiu.com/article/4891128.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">36kr</span>
+            <h2><a href="https://36kr.com/p/2983081375141893" target="_blank">41. OpenAI canvas一夜封神,超强AI编码研究神器,ChatGPT再次颠覆人机...</a></h2>
+            <div class="summary">这一次,openai官宣推出canvas.它不再是简单的对话框,而是能与chatgpt「并肩作战」的全...</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://36kr.com/p/2983081375141893" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">36kr</span>
+            <h2><a href="https://36kr.com/p/3509709470473346" target="_blank">42. OpenAI有花不完的钱?AI泡沫让人想起了当年的网络股</a></h2>
+            <div class="summary">博通大涨是因为他们宣布与OpenAI达成战略合作,两家公司将共同部署定制的10吉瓦(GW)级AI芯片...</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://36kr.com/p/3509709470473346" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">环球网</span>
+            <h2><a href="https://tech.huanqiu.com/article/4S46LqXnH15" target="_blank">43. OpenAI发布全新路线图:人人都将拥有自己的AGI助手</a></h2>
+            <div class="summary">【环球网科技综合报道】OpenAI 近日公布了一项新的长期蓝图,目标是让全球数十亿人都能享受到先进人工智能带来的便利。公司表示,下一阶段研发重心将放在打造个人通用人工智能(AGI)助手之...</div>
+            <div class="footer">
+                <span>6月21日</span>
+                <a class="read-more" href="https://tech.huanqiu.com/article/4S46LqXnH15" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">雷峰网</span>
+            <h2><a href="https://www.leiphone.com/category/industrynews/AsJkNmGbxJ5mPq93.html" target="_blank">44. OpenAI 商业化版图「一拆为三」,原掌舵人 Fidji Simo 突遭离职</a></h2>
+            <div class="summary">就在OpenAI 发布办公智能体 ChatGPT Work,冲刺 To B 市场时,它的商业化掌舵人却意外离场...</div>
+            <div class="footer">
+                <span>7月14日</span>
+                <a class="read-more" href="https://www.leiphone.com/category/industrynews/AsJkNmGbxJ5mPq93.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">界面新闻</span>
+            <h2><a href="https://www.jiemian.com/article/14353688.html" target="_blank">45. OpenAI麻烦不断:被指多项数据未达标,马斯克起诉或重创IPO计划</a></h2>
+            <div class="summary">值得注意的是,当地时间4月27日,马斯克诉OpenAI案在美国加州奥克兰联邦法院正式开庭,马斯克于...</div>
+            <div class="footer">
+                <span>4月29日</span>
+                <a class="read-more" href="https://www.jiemian.com/article/14353688.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">百度新闻</span>
+            <h2><a href="http://www.xinhuanet.com/liangzi/20260327/7bc5f674f42c4b2b9c7da27458fdef21/c.html" target="_blank">46. OpenAI将加大“世界模型”研究</a></h2>
+            <div class="summary">OpenAI在X社交平台上发布声明称:“与Sora告别。”具体应用停止时间将于后续决定。面向企业和开发者的视频AI模型Sora 2也将停止提供。虽然OpenAI此前也曾中止过部分功能或技术的提供,但在持续扩张的过程中主动撤出业务实属罕见。   OpenAI曾于2025年12月与迪士尼...</div>
+            <div class="footer">
+                <span>3月27日</span>
+                <a class="read-more" href="http://www.xinhuanet.com/liangzi/20260327/7bc5f674f42c4b2b9c7da27458fdef21/c.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="footer-area">
+        <p>由 TeleAgent AI日报技能 自动生成 | <a href="https://github.com">GitHub Pages 托管</a></p>
+        <p>每日16:05自动推送</p>
+    </div>
+</div>
+</body>
+</html>
