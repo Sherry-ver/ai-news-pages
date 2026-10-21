@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI日报 - 2026-10-21</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+            background: #f0f2f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            border-radius: 12px;
+            margin-bottom: 24px;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        .header h1 {
+            font-size: 2.2em;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+        .header .subtitle {
+            font-size: 0.95em;
+            opacity: 0.9;
+            margin-top: 6px;
+        }
+        .header .meta {
+            font-size: 0.85em;
+            opacity: 0.75;
+            margin-top: 12px;
+        }
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 16px;
+        }
+        .stat-item {
+            text-align: center;
+        }
+        .stat-item .num {
+            font-size: 1.8em;
+            font-weight: 700;
+        }
+        .stat-item .label {
+            font-size: 0.8em;
+            opacity: 0.8;
+        }
+        .news-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        .news-card {
+            background: white;
+            border-radius: 10px;
+            padding: 24px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .news-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+        }
+        .news-card .source-tag {
+            display: inline-block;
+            background: #eef2f7;
+            color: #667eea;
+            font-size: 0.75em;
+            padding: 2px 10px;
+            border-radius: 20px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        .news-card h2 {
+            font-size: 1.15em;
+            margin-bottom: 8px;
+            line-height: 1.5;
+        }
+        .news-card h2 a {
+            color: #1a1a2e;
+            text-decoration: none;
+        }
+        .news-card h2 a:hover {
+            color: #667eea;
+        }
+        .news-card .summary {
+            color: #666;
+            font-size: 0.92em;
+            line-height: 1.7;
+            margin-bottom: 12px;
+        }
+        .news-card .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.8em;
+            color: #999;
+        }
+        .news-card .read-more {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .news-card .read-more:hover {
+            text-decoration: underline;
+        }
+        .footer-area {
+            text-align: center;
+            padding: 30px 0 20px;
+            color: #999;
+            font-size: 0.85em;
+        }
+        .footer-area a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        .empty {
+            text-align: center;
+            padding: 60px 20px;
+            color: #999;
+        }
+        .empty .icon {
+            font-size: 3em;
+            margin-bottom: 16px;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 12px;
+            }
+            .header {
+                padding: 30px 20px;
+            }
+            .header h1 {
+                font-size: 1.6em;
+            }
+            .news-card {
+                padding: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>AI 日报</h1>
+        <div class="subtitle">人工智能热点新闻速递</div>
+        <div class="meta">2026-10-20 16:00 至 2026-10-21 16:00</div>
+        <div class="stats">
+            <div class="stat-item">
+                <div class="num">20</div>
+                <div class="label">今日新闻</div>
+            </div>
+            <div class="stat-item">
+                <div class="num">2026-10-21</div>
+                <div class="label">发布日期</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="news-list">
+
+        <div class="news-card">
+            <span class="source-tag">CSDN/路透社</span>
+            <h2><a href="https://blog.csdn.net/gedonshen/article/details/168645637" target="_blank">1. OpenAI拟融资300亿美元，估值目标超1.4万亿美元，抢在Anthropic IPO前锁定投资</a></h2>
+            <div class="summary">据路透社独家披露，OpenAI正以罕见速度推进约300亿美元新一轮融资，目标估值1.4万亿美元以上，力求赶在Anthropic预计11月中旬IPO之前锁定投资承诺。OpenAI同时向投资者展示Q3单季168亿美元营收与年化500亿美元的营收弹药。</div>
+            <div class="footer">
+                <span>2026-10-21</span>
+                <a class="read-more" href="https://blog.csdn.net/gedonshen/article/details/168645637" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">华尔街日报</span>
+            <h2><a href="https://xueqiu.com/7539058388/413121337" target="_blank">2. Anthropic招股书曝光：上半年营收163亿美元，净亏损超800亿，未来算力承诺支出超6000亿美元</a></h2>
+            <div class="summary">据《华尔街日报》报道，Claude开发商Anthropic在IPO招股书草案中披露：2026年上半年营收163亿美元（约为去年同期15倍），净亏损807亿美元；已签下的未来基础设施承诺支出超6000亿美元，若洽谈中的算力交易全部落地可能推高至7500亿美元。</div>
+            <div class="footer">
+                <span>2026-10-21</span>
+                <a class="read-more" href="https://xueqiu.com/7539058388/413121337" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">新华社/商务部</span>
+            <h2><a href="https://mp.weixin.qq.com/s?__biz=MjM5MTI3MTY3Mg==&mid=2651672421&idx=1&sn=eeb527b684c0f8e658ac481940d181a3" target="_blank">3. 美国国土安全部发布DeepSeek禁令，商务部、外交部接连回应：坚决反对</a></h2>
+            <div class="summary">10月19日美国国土安全部宣布禁止美联邦民事行政机构采购DeepSeek及其关联企业的产品和服务，并要求移除相关产品。10月20日商务部回应表示强烈不满、坚决反对，敦促美方立即纠正错误做法；外交部发言人毛宁表示反对将科技经贸问题政治化。</div>
+            <div class="footer">
+                <span>2026-10-20</span>
+                <a class="read-more" href="https://mp.weixin.qq.com/s?__biz=MjM5MTI3MTY3Mg==&mid=2651672421&idx=1&sn=eeb527b684c0f8e658ac481940d181a3" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">科创板日报</span>
+            <h2><a href="https://baike.baidu.com/item/英伟达GTC大会/69441637" target="_blank">4. 英伟达GTC柏林大会开幕：从"卖GPU"转向"卖AI工厂"，黄仁勋21日发表主题演讲</a></h2>
+            <div class="summary">当地时间10月20-22日，英伟达GTC大会在德国柏林举行，设有100多场专题分享，聚焦加速计算、智能体AI、物理AI、机器人、开源模型与AI基础设施。黄仁勋于21日发表主题演讲，发布Dynamo（AI工厂操作系统）与DSX数字孪生蓝图平台，Vera Rubin平台部署进展成关键看点。</div>
+            <div class="footer">
+                <span>2026-10-21</span>
+                <a class="read-more" href="https://baike.baidu.com/item/英伟达GTC大会/69441637" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">IT之家</span>
+            <h2><a href="https://it.sohu.com/a/1090154287_114760" target="_blank">5. OpenAI正式上线ChatGPT Slides幻灯片工具，支持团队实时协作编辑</a></h2>
+            <div class="summary">OpenAI于10月20日在ChatGPT中上线Slides功能，用户可通过指令基于对话记录、上传文档或大纲自动生成演示文稿，并支持多人实时协作，标志着其"办公三件套"（Pages、Sheets、Slides）最后一块拼图到位。</div>
+            <div class="footer">
+                <span>2026-10-20</span>
+                <a class="read-more" href="https://it.sohu.com/a/1090154287_114760" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">国新办/红星新闻</span>
+            <h2><a href="https://k.sina.com.cn/article_7857201856_1d45362c001908rrl4.html" target="_blank">6. 工信部：AI手机电脑旗舰已具备端侧自主执行任务能力，AI终端从"被动响应"转向"主动服务"</a></h2>
+            <div class="summary">10月20日国新办发布会介绍2026年前三季度工业和信息化发展情况。工信部新闻发言人谢存表示，人工智能手机和电脑旗舰产品已具备端侧自主执行任务能力，AI终端正从"被动响应"转向"主动服务"。</div>
+            <div class="footer">
+                <span>2026-10-20</span>
+                <a class="read-more" href="https://k.sina.com.cn/article_7857201856_1d45362c001908rrl4.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">国新办/央视新闻</span>
+            <h2><a href="https://www.leiphone.com/category/zaobao/Y7039p8HsmmeQClm.html" target="_blank">7. 工信部：正在研究起草新一代智能制造有关政策措施，加快推动AI与制造业深度融合</a></h2>
+            <div class="summary">10月20日国新办发布会披露，今年9月全国先进制造业大会明确提出以新一代智能制造为主攻方向，推动制造业智能化、绿色化、融合化发展。工信部总工程师王卫明表示正在研究起草新一代智能制造的有关政策措施。</div>
+            <div class="footer">
+                <span>2026-10-20</span>
+                <a class="read-more" href="https://www.leiphone.com/category/zaobao/Y7039p8HsmmeQClm.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">工信部/封面新闻</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1879563722344007247&wfr=spider&for=pc" target="_blank">8. 智驾"小蓝灯"国标征求意见：拟定为蓝绿色，禁止手动开关，L3级以下禁止安装</a></h2>
+            <div class="summary">10月20日工信部就《汽车数据安全要求》等五项强制性国家标准公开征求意见，其中新增自动驾驶系统（ADS）标志灯规范：专用光色为蓝绿色，系统激活时自动点亮、退出自动熄灭且不得手动开关，L3级及以上车辆应选装，新标准建议自2028年1月1日起实施。</div>
+            <div class="footer">
+                <span>2026-10-20</span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1879563722344007247&wfr=spider&for=pc" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">百家号</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1879579731703537653&wfr=spider&for=pc" target="_blank">9. 2026物理AI与世界模型大会在南京开幕：全国首个，产业合作签约超60亿元</a></h2>
+            <div class="summary">10月20日，2026物理AI与世界模型大会在南京国际博览中心开幕，图灵奖得主与两院院士齐聚，设9大平行分会场覆盖医疗健康、工业世界模型、自动驾驶、具身智能等方向。开幕式上江苏集中发布九项典型创新成果，两轮重大产业合作项目现场签约总金额超60亿元。</div>
+            <div class="footer">
+                <span>2026-10-20</span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1879579731703537653&wfr=spider&for=pc" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">上观新闻</span>
+            <h2><a href="https://k.sina.com.cn/article_7857201856_1d45362c001908rs14.html" target="_blank">10. Momenta CEO曹旭东：世界模型加速"智驾摩尔定律"，预判2028年成L4规模化落地拐点</a></h2>
+            <div class="summary">10月20日，在2026物理AI与世界模型大会上，Momenta CEO曹旭东发表主题演讲，将智驾安全性与性能每两年提升十倍的趋势概括为"智驾摩尔定律"，认为世界模型正加速该规律，并预判2028年将成为L4规模化落地的重要拐点。</div>
+            <div class="footer">
+                <span>2026-10-20</span>
+                <a class="read-more" href="https://k.sina.com.cn/article_7857201856_1d45362c001908rs14.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">界面新闻</span>
+            <h2><a href="https://m.jiemian.com/article/15212587.html" target="_blank">11. 特斯拉股东大会材料首次书面明确：Optimus V3"已为大规模量产做好准备"</a></h2>
+            <div class="summary">特斯拉在美东周一提交的股东大会材料中，首次以书面形式明确人形机器人Optimus V3"已为大规模量产做好准备"。弗若斯特沙利文报告显示，上半年全球人形机器人收入前五名全部为中国企业。</div>
+            <div class="footer">
+                <span>2026-10-20</span>
+                <a class="read-more" href="https://m.jiemian.com/article/15212587.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">科创板日报</span>
+            <h2><a href="https://www.163.com/dy/article/L9K6PKTI0550B1DU.html" target="_blank">12. 宇树科技市值重返2000亿，10月22日将办2026世界物理AI大会暨合作伙伴生态大会</a></h2>
+            <div class="summary">宇树科技股价10月19日盘中一度涨超17%突破500元/股，总市值重返2000亿元。公司将于10月22日在杭州国际博览中心举办2026世界物理AI大会暨宇树合作伙伴生态大会，主题"宇十俱进，树业共生"，设3000余名嘉宾、40余个展示专区，含具身智能创投分论坛路演。</div>
+            <div class="footer">
+                <span>2026-10-20</span>
+                <a class="read-more" href="https://www.163.com/dy/article/L9K6PKTI0550B1DU.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">华尔街见闻</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1879611819362067944&wfr=spider&for=pc" target="_blank">13. SpaceX三季度财报：AI业务收入暴增830%首成最大收入来源，马斯克称明年ARR上看1万亿美元</a></h2>
+            <div class="summary">SpaceX三季度营收145.8亿美元、同比增长161%，GAAP净利润44.04亿美元（去年同期净亏损10.54亿美元）。AI相关业务收入暴增830%，首次超过星链成为最大收入来源。马斯克表示明年ARR上看1万亿美元、不排除算力超20GW，并已就有委员会会议讨论合并特斯拉。</div>
+            <div class="footer">
+                <span>2026-10-21</span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1879611819362067944&wfr=spider&for=pc" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">成都发布</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1879639816407143145&wfr=spider&for=pc" target="_blank">14. 第二十三届中国计算机大会（CNCC2026）成都开幕：创办23年来首次落地四川</a></h2>
+            <div class="summary">10月21日至24日，以"数聚驱动，智算未来"为主题的CNCC2026在中国西部国际博览城、天府国际会议中心举办，由中国计算机学会主办，四川大学、电子科技大学等承办，将举办167场专题论坛，议题深度聚焦AI基础模型、智能体等方向。</div>
+            <div class="footer">
+                <span>2026-10-21</span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1879639816407143145&wfr=spider&for=pc" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">快科技</span>
+            <h2><a href="https://k.sina.com.cn/article_7857201856_1d45362c001908rv3u.html" target="_blank">15. Groq下一代AI芯片被曝放弃超大SRAM缓存：改用3D堆叠DRAM应对超大规模模型推理</a></h2>
+            <div class="summary">以高速SRAM设计闻名的AI芯片公司Groq被曝在下一代芯片中引入3D堆叠DRAM封装技术，试图摆脱传统SRAM架构在容量上的局限，通过垂直堆叠内存裸片大幅提升显存规格，以应对超大规模AI模型的推理需求，标志着AI半导体架构出现剧变信号。</div>
+            <div class="footer">
+                <span>2026-10-21</span>
+                <a class="read-more" href="https://k.sina.com.cn/article_7857201856_1d45362c001908rv3u.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">网易财经</span>
+            <h2><a href="https://www.163.com/dy/article/L9OQOK4O0519QIKK.html" target="_blank">16. 文旅部公布"人工智能+文化和旅游"应用试点名单，AI+文旅建设提速</a></h2>
+            <div class="summary">10月21日，文化和旅游部公布"人工智能+文化和旅游"应用试点名单，试点覆盖辅助文化艺术创作生产、提升公共文化服务等全部6个重点方向。受利好催化，CS人工智能指数当日上涨1.38%，协创数据、澜起科技等个股领涨。</div>
+            <div class="footer">
+                <span>2026-10-21</span>
+                <a class="read-more" href="https://www.163.com/dy/article/L9OQOK4O0519QIKK.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">财联社</span>
+            <h2><a href="https://cj.sina.com.cn/articles/view/2868676035/aafc85c302001ysaq" target="_blank">17. 甲骨文与阿斯利康达成协议：用AI和真实世界数据加速临床试验患者识别</a></h2>
+            <div class="summary">甲骨文10月20日与阿斯利康宣布达成非约束性协议，计划探索利用AI和真实世界数据识别符合临床试验条件的患者、加快医学证据生成，并将成果融入日常诊疗流程，初步聚焦肿瘤、心血管、肾脏及代谢疾病领域。</div>
+            <div class="footer">
+                <span>2026-10-20</span>
+                <a class="read-more" href="https://cj.sina.com.cn/articles/view/2868676035/aafc85c302001ysaq" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">新浪财经</span>
+            <h2><a href="https://k.sina.com.cn/article_7857201856_1d45362c001908rr78.html" target="_blank">18. 新AI模型仅凭一张面部照片即可预测癌症患者死亡风险，研究登上《柳叶刀·数字健康》</a></h2>
+            <div class="summary">美国医学专家开发出一种人工智能工具，仅凭癌症患者的面部照片就能初步预测其死亡风险，可在医疗数据不足时为治疗决策提供参考。研究于10月19日发表于《柳叶刀·数字健康》期刊，研究者称在面部健康识别AI领域开辟了全新方向。</div>
+            <div class="footer">
+                <span>2026-10-20</span>
+                <a class="read-more" href="https://k.sina.com.cn/article_7857201856_1d45362c001908rr78.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">TechWeb</span>
+            <h2><a href="https://m.techweb.com.cn/article/2026-10-20/2979871.shtml" target="_blank">19. OpenAI奥特曼向员工阐述AI安全三种"终局"路径：倾向建立IAEA式国际监管机构</a></h2>
+            <div class="summary">据外媒报道，奥特曼上周向员工介绍了当前行业讨论的三种AI安全发展方案：建立IAEA式的国际监管机构（其本人最倾向）、顶尖实验室合并、极端的算力垄断（他称其"糟透了"），勾勒出AI治理的不同终局图景。</div>
+            <div class="footer">
+                <span>2026-10-20</span>
+                <a class="read-more" href="https://m.techweb.com.cn/article/2026-10-20/2979871.shtml" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">The Information</span>
+            <h2><a href="http://m.xiangxi.nnjzd.cn/qrsnews/1021/article_10984375" target="_blank">20. Anthropic神秘新模型曝光：推理与"直觉"能力或超全部现有商用模型，擅长读懂未说出口的意图</a></h2>
+            <div class="summary">据The Information爆料，Anthropic正准备推出一款新模型，推理能力和直觉判断能力据称超过目前所有已商用的Anthropic模型，特别擅长理解用户没有明确说出口的意图——即使信息有限，也可能推断出用户真正想完成什么并提出更深入的解决方案。</div>
+            <div class="footer">
+                <span>2026-10-21</span>
+                <a class="read-more" href="http://m.xiangxi.nnjzd.cn/qrsnews/1021/article_10984375" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="footer-area">
+        <p>由 TeleAgent AI日报技能 自动生成 | <a href="https://github.com">GitHub Pages 托管</a></p>
+        <p>每日16:05自动推送</p>
+    </div>
+</div>
+</body>
+</html>
