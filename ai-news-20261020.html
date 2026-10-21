@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI日报 - 2026-10-20</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+            background: #f0f2f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            border-radius: 12px;
+            margin-bottom: 24px;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        .header h1 {
+            font-size: 2.2em;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+        .header .subtitle {
+            font-size: 0.95em;
+            opacity: 0.9;
+            margin-top: 6px;
+        }
+        .header .meta {
+            font-size: 0.85em;
+            opacity: 0.75;
+            margin-top: 12px;
+        }
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 16px;
+        }
+        .stat-item {
+            text-align: center;
+        }
+        .stat-item .num {
+            font-size: 1.8em;
+            font-weight: 700;
+        }
+        .stat-item .label {
+            font-size: 0.8em;
+            opacity: 0.8;
+        }
+        .news-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        .news-card {
+            background: white;
+            border-radius: 10px;
+            padding: 24px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .news-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+        }
+        .news-card .source-tag {
+            display: inline-block;
+            background: #eef2f7;
+            color: #667eea;
+            font-size: 0.75em;
+            padding: 2px 10px;
+            border-radius: 20px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        .news-card h2 {
+            font-size: 1.15em;
+            margin-bottom: 8px;
+            line-height: 1.5;
+        }
+        .news-card h2 a {
+            color: #1a1a2e;
+            text-decoration: none;
+        }
+        .news-card h2 a:hover {
+            color: #667eea;
+        }
+        .news-card .summary {
+            color: #666;
+            font-size: 0.92em;
+            line-height: 1.7;
+            margin-bottom: 12px;
+        }
+        .news-card .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.8em;
+            color: #999;
+        }
+        .news-card .read-more {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .news-card .read-more:hover {
+            text-decoration: underline;
+        }
+        .footer-area {
+            text-align: center;
+            padding: 30px 0 20px;
+            color: #999;
+            font-size: 0.85em;
+        }
+        .footer-area a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        .empty {
+            text-align: center;
+            padding: 60px 20px;
+            color: #999;
+        }
+        .empty .icon {
+            font-size: 3em;
+            margin-bottom: 16px;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 12px;
+            }
+            .header {
+                padding: 30px 20px;
+            }
+            .header h1 {
+                font-size: 1.6em;
+            }
+            .news-card {
+                padding: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>AI 日报</h1>
+        <div class="subtitle">人工智能热点新闻速递</div>
+        <div class="meta">2026-10-19 16:00 ~ 2026-10-20 16:00</div>
+        <div class="stats">
+            <div class="stat-item">
+                <div class="num">20</div>
+                <div class="label">今日新闻</div>
+            </div>
+            <div class="stat-item">
+                <div class="num">2026-10-20</div>
+                <div class="label">发布日期</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="news-list">
+
+        <div class="news-card">
+            <span class="source-tag">雪球·数智早参</span>
+            <h2><a href="https://xueqiu.com/4642157440/412945339" target="_blank">1. 中国大模型周调用量连续25周超过美国，AI赋能钢铁行业首批标准发布</a></h2>
+            <div class="summary">据OpenRouter最新数据测算，上周（10月12日至18日）全球AI大模型总调用量为164万亿Token，环比下滑4.65%。其中中国AI大模型周调用量达79.18万亿Token，连续25周超过美国；同期人工智能赋能钢铁行业首批标准正式发布。</div>
+            <div class="footer">
+                <span>10月20日 07:10</span>
+                <a class="read-more" href="https://xueqiu.com/4642157440/412945339" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">财联社</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1879524650870142929" target="_blank">2. Anthropic洽谈450亿美元算力大单，Nscale将部署英伟达Vera Rubin芯片</a></h2>
+            <div class="summary">英国AI云计算公司Nscale正与Anthropic洽谈第二笔大型算力供应协议，交易规模可能达约450亿美元，计划在西弗吉尼亚州Monarch数据中心园区建设第二座设施，提供460兆瓦算力，采用英伟达下一代Vera Rubin芯片，最快数日内敲定。</div>
+            <div class="footer">
+                <span>10月20日 06:37</span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1879524650870142929" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">全球科技早参</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1879523423625600529" target="_blank">3. Anthropic神秘新模型曝光：擅长推断用户隐含意图</a></h2>
+            <div class="summary">据The Information爆料，Anthropic正在开发一款新模型，推理与直觉判断能力据称超过其现有全部商用模型。新模型擅长根据不完整指令推断用户真实意图，例如修复单个Bug时可找出同类底层问题并主动询问是否一并修复，但名称、定价及发布时间尚未披露。</div>
+            <div class="footer">
+                <span>10月20日 07:39</span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1879523423625600529" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">搜狐科技</span>
+            <h2><a href="https://www.sohu.com/a/1089963804_115362" target="_blank">4. 英伟达官宣量子容错计算重大突破：超8000块GPU模拟，物理比特需求降九成</a></h2>
+            <div class="summary">英伟达宣布在量子容错计算模拟上取得创纪录突破：借助超过8000块GPU进行模拟，将所需物理比特数量降低90%。同期英伟达GTC柏林大会于10月20日至22日举行，黄仁勋21日发表主题演讲，聚焦加速计算、智能体AI与物理AI。</div>
+            <div class="footer">
+                <span>10月20日 07:39</span>
+                <a class="read-more" href="https://www.sohu.com/a/1089963804_115362" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">DoNews AI周报</span>
+            <h2><a href="https://www.donews.com/article/detail/8927/108555.html" target="_blank">5. OpenAI神秘“极光”模型闪现API列表，梁文锋豪赌机器人大脑</a></h2>
+            <div class="summary">有开发者发现OpenAI API模型列表中突然出现aurora-red-alpha、aurora-green-alpha、aurora-blue-alpha三个“极光”命名的新模型，但条目很快消失，参数细节未公开。同期DeepSeek创始人梁文锋被曝押注具身智能“机器人大脑”方向，赛道剑指太空场景。</div>
+            <div class="footer">
+                <span>10月20日 14:02</span>
+                <a class="read-more" href="https://www.donews.com/article/detail/8927/108555.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">新浪财经</span>
+            <h2><a href="http://finance.sina.com.cn/stock/t/2026-10-20/doc-inivvxcr5804761.shtml" target="_blank">6. Altman向员工阐述AI安全三条“终局之路”，称算力垄断“糟透了”</a></h2>
+            <div class="summary">据The Information，OpenAI CEO奥特曼上周向员工介绍三种AI安全发展路径：建立类似国际原子能机构(IAEA)的国际监管组织（其本人最倾向）、将头部AI实验室合并为单一实体、由一家公司垄断算力“熔毁所有竞争对手的GPU”。此番表态恰逢特朗普政府着手建立首套AI监管规则。</div>
+            <div class="footer">
+                <span>10月20日 11:37</span>
+                <a class="read-more" href="http://finance.sina.com.cn/stock/t/2026-10-20/doc-inivvxcr5804761.shtml" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">金融界</span>
+            <h2><a href="https://finance.jrj.com.cn/2026/10/19190458775340.shtml" target="_blank">7. DeepSeek发布V4.1-Flash-1017，称部分性能超OpenAI，新增搜索与抓取接口</a></h2>
+            <div class="summary">10月17日DeepSeek发布新模型V4.1-Flash-1017，网页端、App与API三端同步切换，API价格未上调，并新增Search与Fetch（网页搜索与抓取）接口。官方称新模型在保持较低成本的同时部分性能超越OpenAI等水平，V4.1-Flash几乎每周位居全球调用量榜首。</div>
+            <div class="footer">
+                <span>10月19日 19:04</span>
+                <a class="read-more" href="https://finance.jrj.com.cn/2026/10/19190458775340.shtml" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">知乎</span>
+            <h2><a href="https://www.zhihu.com/question/2095807191559283049/answer/2095870097621509860" target="_blank">8. OpenAI高管称“中国AI约50%靠蒸馏”，新版DeepSeek上线引发行业激辩</a></h2>
+            <div class="summary">新版DeepSeek上线后性能再度逼近头部商用模型，OpenAI高管“中国AI约50%靠蒸馏”的说法引发热议：若蒸馏即可快速追赶，投资人和市场将重新审视前沿模型的护城河与估值逻辑。大模型竞争正从“比参数”转向“比落地”。</div>
+            <div class="footer">
+                <span>10月20日 13:32</span>
+                <a class="read-more" href="https://www.zhihu.com/question/2095807191559283049/answer/2095870097621509860" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">新浪科技</span>
+            <h2><a href="https://k.sina.com.cn/article_7857201856_1d45362c001908rp44.html" target="_blank">9. MiniMax发布新一代M3.1 Flash价格降七成，智能体赛道竞争白热化</a></h2>
+            <div class="summary">10月19日晚间，MiniMax正式发布新一代Flash模型M3.1 Flash，大幅强化Agent能力，调用价格下降七成。国产大模型竞争焦点加速转向智能体，MiniMax、DeepSeek一周内相继升级Agent能力。机构认为AI叙事正从“模型能力竞赛”切换至“智能体商业化兑现”阶段。</div>
+            <div class="footer">
+                <span>10月20日 09:00</span>
+                <a class="read-more" href="https://k.sina.com.cn/article_7857201856_1d45362c001908rp44.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">搜狐科技</span>
+            <h2><a href="https://m.sohu.com/a/1090043489_123018741" target="_blank">10. 一个月四款旗舰大模型密集发布：AI行业从“比参数”转向“比落地”</a></h2>
+            <div class="summary">9月下旬至10月中旬，谷歌、Anthropic、OpenAI先后亮出旗舰底牌，国内DeepSeek更新主力版本，Meta、Mistral等公司扎堆免费开放模型权重，密集程度为过去十年未见。竞争姿势也在变化：主角不再是跑分和参数表，而是落地应用与生态。</div>
+            <div class="footer">
+                <span>10月20日 10:33</span>
+                <a class="read-more" href="https://m.sohu.com/a/1090043489_123018741" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">百家号·A股猛料</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1879483997431422897" target="_blank">11. 具身智能成AI工业化重要方向，OpenAI发力人形机器人研发</a></h2>
+            <div class="summary">IBM咨询高级副总裁透露公司已部署约6000个AI智能体并整合进150多个工作流，大厂密集发布Agent产品令智能体赛道竞争白热化。同时OpenAI发力人形机器人研发，将AI大脑作为核心突破口，具身智能被视为AI工业化的重要方向。</div>
+            <div class="footer">
+                <span>10月20日 05:28</span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1879483997431422897" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">凤凰网财经</span>
+            <h2><a href="https://finance.ifeng.com/c/8xNPu0suJRE" target="_blank">12. 我国首批六项人形机器人国家标准获批，板块掀起涨停潮</a></h2>
+            <div class="summary">我国首批六项人形机器人领域国家标准正式批准发布，包括5项技术要求系列标准及《人形机器人仿真测试平台技术规范》，2027年4月1日起正式实施。商务部等9部门同期发布科技兴商意见，提出加快AI与研发、制造、营销深度融合，人形机器人板块掀起涨停潮。</div>
+            <div class="footer">
+                <span>10月20日 11:56</span>
+                <a class="read-more" href="https://finance.ifeng.com/c/8xNPu0suJRE" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">工信部·答记者问</span>
+            <h2><a href="https://new.qq.com/rain/a/20261020A04HDK00" target="_blank">13. 工信部：2025年我国AI核心产业规模超1.2万亿元，人形机器人加快走进消费商贸</a></h2>
+            <div class="summary">工信部就科技赋能商品消费提质答记者问：2025年我国人工智能核心产业规模超1.2万亿元，AI手机进入“口袋中”、智能网联汽车跑在“公路上”、人形机器人加快走向应用，将持续推动人工智能深度赋能新型工业化，深化拓展“人工智能+”行动。</div>
+            <div class="footer">
+                <span>10月20日</span>
+                <a class="read-more" href="https://new.qq.com/rain/a/20261020A04HDK00" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">极客网</span>
+            <h2><a href="https://www.fromgeek.com/daily/1044-729696.html" target="_blank">14. 微步发布全球首个多AI Agent渗透平台RedAgents</a></h2>
+            <div class="summary">网络安全厂商微步发布全球首个多AI Agent渗透测试平台RedAgents。近期多家韩国银行网络遭攻破，攻击者仅凭一句自然语言命令即可借助AI Agent造成巨大安全影响，防御方正以最强AI红队对抗AI攻击，AI安全赛道持续升温。</div>
+            <div class="footer">
+                <span>10月20日 12:45</span>
+                <a class="read-more" href="https://www.fromgeek.com/daily/1044-729696.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">百家号</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1879544173116839976" target="_blank">15. 大模型竞争进入下半场：高质量数据成AI领域硬通货</a></h2>
+            <div class="summary">大模型数据服务商Snorkel AI完成新一轮融资后估值突破35亿美元，一年内营收暴涨18倍；人形机器人数据企业Mecka AI获红杉领投6000万美元B轮融资，成立两年估值5亿美元。两家公司均不做终端AI产品、专注生产高质量训练数据，数据可用性不足正制约大模型发展。</div>
+            <div class="footer">
+                <span>10月20日 13:32</span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1879544173116839976" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">财联社</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1879553369324169066" target="_blank">16. 软银信用风险飙至近四年最高，AI融资加剧市场债务担忧</a></h2>
+            <div class="summary">受AI相关融资及潜在大规模收购计划担忧影响，软银五年期信用违约互换(CDS)费率升至432个基点，创2022年11月以来新高，股价较6月高点已大幅下挫。同期CoreWeave等AI算力股债压力上升，美国10万亿美元AI基建计划下47个大型数据中心停摆，市场担忧债务风险。</div>
+            <div class="footer">
+                <span>10月20日 15:36</span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1879553369324169066" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">百家号</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1879543619877982472" target="_blank">17. 黄仁勋柏林GTC开讲在即，物理AI概念股两连板</a></h2>
+            <div class="summary">10月20日至22日英伟达GTC大会在柏林举行，黄仁勋将于21日发表主题演讲，本届大会重心明确框定为加速计算、智能体AI、物理AI与机器人等方向。A股物理AI概念再度走强：凡拓数创20cm涨停两连板，索辰科技涨超10%，奥比中光、格灵深瞳等跟涨。</div>
+            <div class="footer">
+                <span>10月20日 12:58</span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1879543619877982472" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">百家号</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1879491900649805708" target="_blank">18. 中国拟对23项AI技术进行出口管制，AI出海合规边界明确</a></h2>
+            <div class="summary">商务部回应AI大模型“出海”技术出口管理边界：核心判别在于是否涉及限制类技术从境内向境外转移，目录涵盖大型模型、智能体、计算集群、信息处理技术等。AI大模型和应用产品出海模式多样，合规边界与通路引发行业高度关注。</div>
+            <div class="footer">
+                <span>10月19日 22:04</span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1879491900649805708" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">百家号</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1879538083820176803" target="_blank">19. AI赋能新型工业化：300余家头部企业亮相产业对接活动</a></h2>
+            <div class="summary">产业对接活动上300余家国内外头部标杆企业及科创主体亮相。珞石机器人携逐星H系列轮式人形机器人、太白AR系列人形力控臂等产品矩阵参展，展现智能机器人从工业生产场景向消费级应用延伸；豆包工展台演示目标驱动的自主脚本生产，AI正聚焦需求深度赋能新型工业化。</div>
+            <div class="footer">
+                <span>10月20日 11:02</span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1879538083820176803" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">新浪科技</span>
+            <h2><a href="https://k.sina.com.cn/article_7857201856_1d45362c001908rms0.html" target="_blank">20. 澳公司部署AI代理假扮受害者“反诈”，用AI“诈骗”诈骗分子</a></h2>
+            <div class="summary">澳大利亚专注反诈的AI公司Apate让AI代理去“卧底”，反向诱骗诈骗者、专门浪费骗子时间。随着AI技术发展与普及，当攻击只需一句自然语言命令，企业与安全行业正探索以AI对抗AI的新防御模式，该案例在TechCrunch Disrupt大会上引发关注。</div>
+            <div class="footer">
+                <span>10月19日 19:00</span>
+                <a class="read-more" href="https://k.sina.com.cn/article_7857201856_1d45362c001908rms0.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="footer-area">
+        <p>由 TeleAgent AI日报技能 自动生成 | <a href="https://github.com">GitHub Pages 托管</a></p>
+        <p>每日16:05自动推送</p>
+    </div>
+</div>
+</body>
+</html>
