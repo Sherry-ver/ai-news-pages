@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI日报 - 2026-11-10</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+            background: #f0f2f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            border-radius: 12px;
+            margin-bottom: 24px;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        .header h1 {
+            font-size: 2.2em;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+        .header .subtitle {
+            font-size: 0.95em;
+            opacity: 0.9;
+            margin-top: 6px;
+        }
+        .header .meta {
+            font-size: 0.85em;
+            opacity: 0.75;
+            margin-top: 12px;
+        }
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 16px;
+        }
+        .stat-item {
+            text-align: center;
+        }
+        .stat-item .num {
+            font-size: 1.8em;
+            font-weight: 700;
+        }
+        .stat-item .label {
+            font-size: 0.8em;
+            opacity: 0.8;
+        }
+        .news-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        .news-card {
+            background: white;
+            border-radius: 10px;
+            padding: 24px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .news-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+        }
+        .news-card .source-tag {
+            display: inline-block;
+            background: #eef2f7;
+            color: #667eea;
+            font-size: 0.75em;
+            padding: 2px 10px;
+            border-radius: 20px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        .news-card h2 {
+            font-size: 1.15em;
+            margin-bottom: 8px;
+            line-height: 1.5;
+        }
+        .news-card h2 a {
+            color: #1a1a2e;
+            text-decoration: none;
+        }
+        .news-card h2 a:hover {
+            color: #667eea;
+        }
+        .news-card .summary {
+            color: #666;
+            font-size: 0.92em;
+            line-height: 1.7;
+            margin-bottom: 12px;
+        }
+        .news-card .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.8em;
+            color: #999;
+        }
+        .news-card .read-more {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .news-card .read-more:hover {
+            text-decoration: underline;
+        }
+        .footer-area {
+            text-align: center;
+            padding: 30px 0 20px;
+            color: #999;
+            font-size: 0.85em;
+        }
+        .footer-area a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        .empty {
+            text-align: center;
+            padding: 60px 20px;
+            color: #999;
+        }
+        .empty .icon {
+            font-size: 3em;
+            margin-bottom: 16px;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 12px;
+            }
+            .header {
+                padding: 30px 20px;
+            }
+            .header h1 {
+                font-size: 1.6em;
+            }
+            .news-card {
+                padding: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>AI 日报</h1>
+        <div class="subtitle">人工智能热点新闻速递</div>
+        <div class="meta">2026-11-09 16:00 ~ 2026-11-10 16:00</div>
+        <div class="stats">
+            <div class="stat-item">
+                <div class="num">20</div>
+                <div class="label">今日新闻</div>
+            </div>
+            <div class="stat-item">
+                <div class="num">2026-11-10</div>
+                <div class="label">发布日期</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="news-list">
+
+        <div class="news-card">
+            <span class="source-tag">新浪AI热点</span>
+            <h2><a href="https://k.sina.com.cn/article_7857201856_1d45362c001908uare.html" target="_blank">1. 冲刺IPO前夕，Anthropic发布Claude Fable 5.2与Mythos 5.2，称专攻高难度技术难题</a></h2>
+            <div class="summary">当地时间11月9日，正在冲刺IPO的Anthropic对旗下Claude Fable与Claude Mythos两款模型同步升级，推出5.2版本，官方称其为目前公开对外发布的能力最强模型，重点强化高难度技术攻关与长链路推理。</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://k.sina.com.cn/article_7857201856_1d45362c001908uare.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">百家号</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1881425592407269490&wfr=spider&for=pc" target="_blank">2. 8天写出操作系统，Anthropic新模型演示引热议，估值预期从2万亿回落到1.1万亿</a></h2>
+            <div class="summary">上周纳斯达克100单日跌超6%、市值蒸发约2.3万亿美元后，Anthropic发布新模型演示：工程师从空文件夹起步，8天完成一套可用操作系统，被视为AI编程能力的又一次跃迁，但资本市场对AI基础设施估值开始重新定价。</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1881425592407269490&wfr=spider&for=pc" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">新浪网</span>
+            <h2><a href="https://t.cj.sina.com.cn/articles/view/1654203637/629924f50200182j0" target="_blank">3. LongCat-2.5正式开源：1.6万亿参数原生多模态长程智能体大模型，深度适配国产算力</a></h2>
+            <div class="summary">模型采用MIT协议开源，允许商用推理部署与二次训练且无需额外授权；总参数1.6万亿、单token激活约480亿，支持百万token超长上下文，并针对显存与带宽受限的国产算力芯片完成架构、算子、部署策略优化。</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://t.cj.sina.com.cn/articles/view/1654203637/629924f50200182j0" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">界面新闻</span>
+            <h2><a href="http://baijiahao.baidu.com/s?id=1881435606723465547&wfr=spider&for=pc" target="_blank">4. 我国大模型周调用量连续28周全球第一，科创50指数盘初涨超2%</a></h2>
+            <div class="summary">截至11月10日9时47分，上证科创板50成份指数上涨1.43%、盘初最高涨超2%；机构指出国产大模型调用量持续领跑全球，带动算力与芯片板块情绪回暖。</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="http://baijiahao.baidu.com/s?id=1881435606723465547&wfr=spider&for=pc" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">新浪科技</span>
+            <h2><a href="https://k.sina.com.cn/article_7857201856_1d45362c001908ub76.html" target="_blank">5. 基元律动发布Agent原生模型NeoHorse-1.5-Flash：总参数180B，开放限量内测</a></h2>
+            <div class="summary">模型基于Qwen3.8-Flash训练，总参数180B、激活参数6B，重点提升Agent任务执行与软件工程能力。官方对照评测显示相较基座模型在智能体长任务上明显提升，目前已开放限量内测。</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://k.sina.com.cn/article_7857201856_1d45362c001908ub76.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">CSDN</span>
+            <h2><a href="https://blog.csdn.net/aibridge/article/details/170407197" target="_blank">6. DeepSeek发布Super-agent架构，开源常驻自主智能体原型</a></h2>
+            <div class="summary">DeepSeek Harness团队公开面向自主智能体的全新Super-agent架构，提出双层架构、事件驱动、存算分离等设计，由底层接管会话管理与上下文同步，并在GitHub开源TypeScript实现原型（MIT协议）。</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://blog.csdn.net/aibridge/article/details/170407197" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">CSDN</span>
+            <h2><a href="https://blog.csdn.net/IT_ORACLE/article/details/170326522" target="_blank">7. OpenAI发布网络安全模型GPT-6 Cyber：自主扫描Linux内核，挖出948个提权漏洞</a></h2>
+            <div class="summary">该模型面向获批安全团队开放，早期测试中对最新Linux内核自主扫描并自动生成补丁，共发现948个提权漏洞，由人类研究员复核，把“AI漏洞挖掘”从演示推向实战。</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://blog.csdn.net/IT_ORACLE/article/details/170326522" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">博客园</span>
+            <h2><a href="https://www.cnblogs.com/xupeihuagudulei/p/23600815" target="_blank">8. OpenAI完成首关110亿美元融资，估值约1.25万亿美元</a></h2>
+            <div class="summary">据彭博报道，OpenAI新一轮融资首关110亿美元已落地，估值约1.25万亿美元，本轮融资总额可能达200亿美元，公司未予置评。巨额融资也加剧了市场对AI资本开支回报周期的讨论。</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://www.cnblogs.com/xupeihuagudulei/p/23600815" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">网易</span>
+            <h2><a href="https://www.163.com/dy/article/LB9L97CM05118I96.html" target="_blank">9. OpenAI突发大规模封号，含月费200美元Pro用户，官方称可通过申诉复核</a></h2>
+            <div class="summary">11月8日起多家技术社区集中曝出ChatGPT账号无预警停用，部分用户登录时直接提示账户已删除，长期聊天记录无法访问。OpenAI回应称受影响用户可通过申诉渠道申请复核。</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://www.163.com/dy/article/LB9L97CM05118I96.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">搜狐网</span>
+            <h2><a href="https://www.sohu.com/a/1099257707_122500757" target="_blank">10. 英伟达首尔AI Day：与韩国共建主权AI，四家本土模型接入Dynamo</a></h2>
+            <div class="summary">11月9日英伟达在首尔举办AI Day，与韩国科学技术信息通信部扩大主权AI生态合作，覆盖AI半导体、数据中心基础设施及人才、初创、模型、智能体与安全，并为韩国NPU/XPU企业参与NVLink Fusion生态铺路。</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://www.sohu.com/a/1099257707_122500757" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">百家号</span>
+            <h2><a href="http://baijiahao.baidu.com/s?id=1881426962411640300&wfr=spider&for=pc" target="_blank">11. 谷歌将推出两款新TPU芯片，加码与英伟达竞争</a></h2>
+            <div class="summary">谷歌计划发布两款新一代TPU，继续以自研加速器降低对外部GPU的依赖，并在训练与推理两端同时施压，AI芯片竞争从单卡性能转向系统级与生态级对抗。</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="http://baijiahao.baidu.com/s?id=1881426962411640300&wfr=spider&for=pc" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">百家号</span>
+            <h2><a href="http://baijiahao.baidu.com/s?id=1881439434518088654&wfr=spider&for=pc" target="_blank">12. 全栈国产化太空算力网“星云星座计划”发布，算力基础设施指数大涨3.36%</a></h2>
+            <div class="summary">星云星座计划主打全栈国产化的太空算力网络，消息带动创业板算力基础设施指数上涨3.36%，长芯博创、同飞股份、申菱环境、光库科技等产业链个股集体走强。</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="http://baijiahao.baidu.com/s?id=1881439434518088654&wfr=spider&for=pc" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">新浪财经</span>
+            <h2><a href="http://finance.sina.com.cn/jjxw/2026-11-09/doc-iniycfna6617685.shtml" target="_blank">13. 中国移动豪掷千亿采购算力，马斯克太空算力最快2027年升空</a></h2>
+            <div class="summary">中国移动启动千亿级算力集采；马斯克称SpaceX将于2027年三季度开始发射与英伟达联合设计的首批StarMind计算机，2028年规模明显提升、2029年进一步放量。寒武纪当日涨超6%。</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="http://finance.sina.com.cn/jjxw/2026-11-09/doc-iniycfna6617685.shtml" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">百家号</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1881447044288587795&wfr=spider&for=pc" target="_blank">14. 东吴证券：大模型厂商加速入局机器人，继续看好物理AI</a></h2>
+            <div class="summary">研报指出本周万得人形机器人指数上涨3.90%，跑赢沪深300约2.17个百分点，人形机器人日成交额占全A比重持续高于5%，大模型厂商入局正加速“物理AI”落地节奏。</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1881447044288587795&wfr=spider&for=pc" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">百家号</span>
+            <h2><a href="https://baijiahao.baidu.com/s?id=1881449605870732976&wfr=spider&for=pc" target="_blank">15. 物理AI基础设施加速构建：让AI“走出”屏幕“走进”现实世界</a></h2>
+            <div class="summary">洗衣房轮式人形机器人已进入酒店实测，从任务理解、环境感知交互到开关门、取放衣物的动作推理，均依赖具身模型作为“大脑”，物理AI基础设施正成为新一轮投入重点。</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://baijiahao.baidu.com/s?id=1881449605870732976&wfr=spider&for=pc" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">新浪财经</span>
+            <h2><a href="http://finance.sina.com.cn/roll/2026-11-10/doc-iniyfqsy5920305.shtml" target="_blank">16. 人形机器人龙头涨停创历史新高，宇树科技市值重回3000亿元</a></h2>
+            <div class="summary">11月10日上午创业板指涨1.49%、科创综指涨1.32%，全市场逾3800只个股上涨，人形机器人、AI视频、算力板块领涨；机构称人形机器人正从单点试点走向成建制部署。</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="http://finance.sina.com.cn/roll/2026-11-10/doc-iniyfqsy5920305.shtml" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">同花顺</span>
+            <h2><a href="https://stock.10jqka.com.cn/20261110/c681631144.shtml" target="_blank">17. 中信建投：2027年AI投资主线将转向ROI兑现，国产芯片与算力系统受关注</a></h2>
+            <div class="summary">中信建投研报判断AI行业投资逻辑将从“算力军备竞赛”转向“投入产出兑现”，国产芯片、算力系统与能形成真实收入的AI应用环节更受青睐。</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://stock.10jqka.com.cn/20261110/c681631144.shtml" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">搜狐科技</span>
+            <h2><a href="https://it.sohu.com/a/1099067172_115479" target="_blank">18. 中国电信研究院空芯光纤实现千公里128Tb/s实时传输，为算力网络提供新连接方案</a></h2>
+            <div class="summary">中国电信研究院联合长飞、中兴在1007.48公里空芯光纤链路上实现双向各64Tb/s、合计128Tb/s实时传输，千公里单程仅3.43毫秒，较传统实芯光纤可降低约30%时延，可复用现有传输设备。</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://it.sohu.com/a/1099067172_115479" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">新浪网</span>
+            <h2><a href="https://k.sina.com.cn/article_7857201856_1d45362c001908ube0.html" target="_blank">19. 天融信AI安全运营入选中关村科学城人工智能全景赋能典型案例</a></h2>
+            <div class="summary">2026中关村人工智能与未来城市论坛上，“人工智能+网络安全运营方案”入选全景赋能典型案例，方向为“支撑能力—安全体系”，反映AI安全运营正从概念走向可复制的行业标杆实践。</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://k.sina.com.cn/article_7857201856_1d45362c001908ube0.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <span class="source-tag">新浪网</span>
+            <h2><a href="https://k.sina.com.cn/article_7857201856_1d45362c001908uazy.html" target="_blank">20. 2026年度“十大”科普热词发布：人工智能+、智能体、具身智能、脑机接口入选</a></h2>
+            <div class="summary">中国科普作家协会在2026年学术年会上发布年度十大科普热词，“人工智能+”“智能体”“人形机器人”“具身智能”“脑机接口”“科技伦理”“词元”等入选，依托国家语言资源监测语料库大数据遴选。</div>
+            <div class="footer">
+                <span></span>
+                <a class="read-more" href="https://k.sina.com.cn/article_7857201856_1d45362c001908uazy.html" target="_blank">阅读全文 &rarr;</a>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="footer-area">
+        <p>由 TeleAgent AI日报技能 自动生成 | <a href="https://github.com">GitHub Pages 托管</a></p>
+        <p>每日16:05自动推送</p>
+    </div>
+</div>
+</body>
+</html>
